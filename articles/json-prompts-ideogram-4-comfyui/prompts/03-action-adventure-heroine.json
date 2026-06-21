@@ -1,0 +1,25 @@
+{
+    "high_level_description": "An original action-adventure game heroine stands inside an ancient stone ruin, ready for exploration, presented as a polished character concept illustration for a cinematic adventure game.",
+    "style_description": {
+        "aesthetics": "cinematic adventure mood, confident heroic tone, premium action game presentation, grounded realism",
+        "lighting": "soft directional sunlight entering through a ruined opening, subtle ambient bounce from stone walls, controlled contrast on the character silhouette",
+        "medium": "digital character concept art",
+        "art_style": "AAA action-adventure concept art with realistic anatomy, practical explorer outfit design, refined material rendering, believable utility gear, and strong but natural facial features",
+        "color_palette": ["#6B4F3A", "#8C7A5B", "#3F3A36", "#C2A878", "#556B2F", "#D9C7A2"]
+    },
+    "compositional_deconstruction": {
+        "background": "An ancient ruin interior with carved stone walls, broken pillars, scattered dust, hanging vines, and a distant opening suggesting a forgotten tomb environment.",
+        "elements": [
+            {
+                "type": "obj",
+                "bbox": [43, 40, 936, 733],
+                "desc": "A single original female explorer character placed as the central subject, with an athletic build, a confident relaxed pose, alert expression, tied-back hair, fitted expedition clothing, fingerless gloves, durable boots, a utility belt, a climbing rope, and a small satchel."
+            },
+            {
+                "type": "obj",
+                "bbox": [231, 129, 712, 631],
+                "desc": "Explorer gear details visible on the character, including a flashlight, map pouch, holsters, weathered fabric textures, and practical accessories designed for gameplay readability."
+            }
+        ]
+    }
+}

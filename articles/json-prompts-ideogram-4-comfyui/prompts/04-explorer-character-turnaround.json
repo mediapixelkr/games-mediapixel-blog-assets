@@ -1,0 +1,35 @@
+{
+    "high_level_description": "A professional game character turnaround sheet showing an original female explorer designed for an action-adventure game, presented with multiple clean reference views for 3D modeling.",
+    "style_description": {
+        "aesthetics": "professional character sheet, clean production presentation, readable reference layout, structured visual clarity",
+        "lighting": "flat neutral studio lighting with minimal shadows to preserve form readability across all views",
+        "medium": "digital character design sheet",
+        "art_style": "AAA game character concept sheet with clean anatomy, consistent proportions, practical costume design, and clear modeling-reference presentation",
+        "color_palette": ["#E6D8C3", "#6E5B4B", "#4A4036", "#7C8F6A", "#B89B72", "#2E2E2E"]
+    },
+    "compositional_deconstruction": {
+        "background": "A light neutral concept sheet background with subtle layout spacing and minimal graphic noise.",
+        "elements": [
+            {
+                "type": "obj",
+                "bbox": [35, 283, 961, 536],
+                "desc": "A full-body front view of the same original explorer character, placed as one clean reference view, standing upright in a neutral pose with clear visibility of outfit layers and accessories."
+            },
+            {
+                "type": "obj",
+                "bbox": [41, 803, 971, 982],
+                "desc": "A full-body side view of the same character, aligned as a modeling turnaround reference, showing profile silhouette and gear placement."
+            },
+            {
+                "type": "obj",
+                "bbox": [35, 544, 969, 795],
+                "desc": "A full-body back view of the same character, showing backpack straps, belt placement, boots, and rear garment structure."
+            },
+            {
+                "type": "obj",
+                "bbox": [33, 22, 960, 275],
+                "desc": "A three-quarter hero view of the same character, slightly more dynamic, used as the visual highlight of the sheet while keeping the same outfit and proportions."
+            }
+        ]
+    }
+}

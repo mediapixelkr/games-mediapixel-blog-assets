@@ -1,0 +1,40 @@
+{
+    "high_level_description": "A professional game art blueprint sheet of a sleek futuristic sports car designed for a racing video game, presented as a clean multi-view modeling reference with one polished hero render and several orthographic views.",
+    "style_description": {
+        "aesthetics": "clean technical game art presentation, high-end vehicle design, professional concept sheet, precise and readable layout",
+        "lighting": "neutral studio lighting for the perspective render, flat even lighting for orthographic views, crisp visibility and minimal shadows",
+        "medium": "digital concept art sheet",
+        "art_style": "AAA vehicle concept art with industrial design clarity, clean linework, controlled reflections, realistic surface materials, sharp panel separations, elegant aerodynamic shapes, and a presentation suitable for 3D modeling reference",
+        "color_palette": ["#0F172A", "#DCE3EA", "#AAB4C3", "#E11D48", "#1E293B", "#F8FAFC"]
+    },
+    "compositional_deconstruction": {
+        "background": "A clean light technical presentation board with subtle grid cues, minimal interface accents, and enough negative space to separate the views clearly.",
+        "elements": [
+            {
+                "type": "obj",
+                "bbox": [23, 448, 421, 974],
+                "desc": "A large perspective hero render of the futuristic sports car placed as the main visual focus, shown in a three-quarter front view with aggressive aerodynamic lines, low ground clearance, wide tires, sculpted side intakes, LED light strips, and premium racing game proportions."
+            },
+            {
+                "type": "obj",
+                "bbox": [430, 713, 814, 974],
+                "desc": "A front orthographic view of the same car, aligned cleanly as a modeling reference, with headlights, grille openings, wheel stance, and body width clearly readable."
+            },
+            {
+                "type": "obj",
+                "bbox": [21, 9, 412, 438],
+                "desc": "A side orthographic view of the same car, showing full body silhouette, wheelbase, roofline, door cut, air intake design, and spoiler profile."
+            },
+            {
+                "type": "obj",
+                "bbox": [427, 439, 819, 703],
+                "desc": "A rear orthographic view of the same car, showing taillight design, diffuser, exhaust treatment, rear width, and spoiler details."
+            },
+            {
+                "type": "obj",
+                "bbox": [432, 5, 816, 432],
+                "desc": "A top orthographic view of the same car, showing roof shape, windshield flow, hood sculpting, and body proportions."
+            }
+        ]
+    }
+}

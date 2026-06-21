@@ -1,0 +1,19 @@
+{
+    "high_level_description": "A stylized fantasy game asset concept of an ornate wooden reward box designed as a collectible prop for a colorful adventure video game, presented as a clean 3D modeling reference.",
+    "style_description": {
+        "aesthetics": "readable fantasy game asset, production-friendly concept art, appealing silhouette, stylized realism, family-friendly adventure tone",
+        "lighting": "clean studio-style lighting with soft shadows and clear material readability",
+        "medium": "digital prop concept art",
+        "art_style": "game-ready prop concept art with a strong silhouette, controlled surface wear, readable material separation, decorative craftsmanship, and details suited for 3D modeling",
+        "color_palette": ["#6E4B2A", "#B08D57", "#3A2A1B", "#7C8A3D", "#D9B44A", "#E8DCC3"]
+    },
+    "compositional_deconstruction": {
+        "background": "A simple neutral presentation background with subtle gradient shading that keeps the focus on the prop.",
+        "elements": [
+            {
+                "type": "obj",
+                "desc": "A single ornate wooden reward box placed as the main object, with thick wooden panels, metal corner reinforcements, decorative lock hardware, carved leaf motifs, polished brass accents, gemstone-like inlays, and a readable in-game collectible silhouette."
+            }
+        ]
+    }
+}
