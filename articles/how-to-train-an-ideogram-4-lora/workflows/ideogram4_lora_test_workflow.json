@@ -2,64 +2,8 @@
   "id": "fdcfc2b2-168f-4f3d-a1d0-6986b802fce5",
   "revision": 0,
   "last_node_id": 212,
-  "last_link_id": 327,
+  "last_link_id": 329,
   "nodes": [
-    {
-      "id": 181,
-      "type": "UNETLoader",
-      "pos": [
-        4123.754365907742,
-        -497.2275298914689
-      ],
-      "size": [
-        448,
-        96
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 0,
-      "mode": 0,
-      "showAdvanced": true,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            320
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
-        "Node name for S&R": "UNETLoader",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        },
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "models": [
-          {
-            "name": "ideogram4_unconditional_fp8_scaled.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Ideogram-4/resolve/main/diffusion_models/ideogram4_unconditional_fp8_scaled.safetensors",
-            "directory": "diffusion_models"
-          }
-        ]
-      },
-      "widgets_values": [
-        "ideogram4_unconditional_fp8_scaled.safetensors",
-        "default"
-      ]
-    },
     {
       "id": 166,
       "type": "UNETLoader",
@@ -74,7 +18,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 1,
+      "order": 0,
       "mode": 0,
       "showAdvanced": true,
       "inputs": [],
@@ -128,7 +72,7 @@
         64
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -162,186 +106,6 @@
       ]
     },
     {
-      "id": 210,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        4598.547954983781,
-        -487.2938437395973
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 7,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 320
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            324
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.24.0",
-        "Node name for S&R": "LoraLoaderModelOnly",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.7"
-        }
-      },
-      "widgets_values": [
-        "mp_scifi_buggy_aitk.safetensors",
-        1
-      ]
-    },
-    {
-      "id": 207,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        4602.701216826646,
-        -324.7228629008384
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 16,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 317
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            322
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.24.0",
-        "Node name for S&R": "LoraLoaderModelOnly",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.7"
-        }
-      },
-      "widgets_values": [
-        "mp_scifi_buggy_aitk.safetensors",
-        1
-      ]
-    },
-    {
-      "id": 211,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        4888.797632517938,
-        -319.4297221189548
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 20,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 322
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            323
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.24.0",
-        "Node name for S&R": "LoraLoaderModelOnly",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.7"
-        }
-      },
-      "widgets_values": [
-        "mp_scifi_buggy_aitk.safetensors",
-        1
-      ]
-    },
-    {
-      "id": 212,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        4887.934170593678,
-        -484.68756442193023
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 14,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 324
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            327
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.24.0",
-        "Node name for S&R": "LoraLoaderModelOnly",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.7"
-        }
-      },
-      "widgets_values": [
-        "mp_scifi_buggy_aitk.safetensors",
-        1
-      ]
-    },
-    {
       "id": 168,
       "type": "CLIPLoader",
       "pos": [
@@ -355,7 +119,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -412,7 +176,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -453,63 +217,6 @@
       ]
     },
     {
-      "id": 209,
-      "type": "CLIPTextEncode",
-      "pos": [
-        5211.822795184888,
-        -521.2417760370062
-      ],
-      "size": [
-        679.7370628456802,
-        159.11368508461385
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 9,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 315
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "slot_index": 0,
-          "links": [
-            316
-          ]
-        }
-      ],
-      "title": "CLIP Text Encode (Nagative Prompt)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
-        "Node name for S&R": "CLIPTextEncode",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        },
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "single person, one foreground figure, text, letters, labels, annotation, watermark, cropped feet, cropped head, faceless, mask, samurai armor, European knight armor, fantasy armor"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 182,
       "type": "DualModelGuider",
       "pos": [
@@ -538,7 +245,7 @@
           "name": "model_negative",
           "shape": 7,
           "type": "MODEL",
-          "link": 327
+          "link": 329
         },
         {
           "name": "negative",
@@ -589,7 +296,7 @@
         112
       ],
       "flags": {},
-      "order": 10,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -676,50 +383,6 @@
       ]
     },
     {
-      "id": 203,
-      "type": "PreviewAny",
-      "pos": [
-        5944.750875552699,
-        -727.334455746894
-      ],
-      "size": [
-        210,
-        166
-      ],
-      "flags": {},
-      "order": 18,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "source",
-          "type": "*",
-          "link": 300
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.24.0",
-        "Node name for S&R": "PreviewAny",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.7"
-        }
-      },
-      "widgets_values": [
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": 167,
       "type": "CLIPTextEncode",
       "pos": [
@@ -733,7 +396,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -797,7 +460,7 @@
         112
       ],
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -831,99 +494,6 @@
       ]
     },
     {
-      "id": 190,
-      "type": "BasicScheduler",
-      "pos": [
-        5948.173426483014,
-        434.8419251590075
-      ],
-      "size": [
-        272,
-        112
-      ],
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 292
-        }
-      ],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            263,
-            264
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.24.0",
-        "Node name for S&R": "BasicScheduler",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        "simple",
-        40,
-        1
-      ]
-    },
-    {
-      "id": 197,
-      "type": "Seed (rgthree)",
-      "pos": [
-        5937.386487267739,
-        604.5290505858925
-      ],
-      "size": [
-        320,
-        144
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "dir": 4,
-          "name": "SEED",
-          "shape": 3,
-          "type": "INT",
-          "links": [
-            280
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "rgthree-comfy",
-        "ver": "738105af5fb14e96fbecaf406dc356e284797e8c",
-        "randomMax": 1125899906842624,
-        "randomMin": 0,
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        122700811960650,
-        "",
-        "",
-        ""
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 160,
       "type": "EmptyFlux2LatentImage",
       "pos": [
@@ -937,7 +507,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 11,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -1023,80 +593,6 @@
         "cnr_id": "comfy-core",
         "ver": "0.9.1",
         "Node name for S&R": "ConditioningZeroOut",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        },
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 161,
-      "type": "SamplerCustomAdvanced",
-      "pos": [
-        5946.691445405945,
-        -909.1924800963421
-      ],
-      "size": [
-        239.0463046455252,
-        326
-      ],
-      "flags": {},
-      "order": 24,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "noise",
-          "type": "NOISE",
-          "link": 227
-        },
-        {
-          "name": "guider",
-          "type": "GUIDER",
-          "link": 254
-        },
-        {
-          "name": "sampler",
-          "type": "SAMPLER",
-          "link": 228
-        },
-        {
-          "name": "sigmas",
-          "type": "SIGMAS",
-          "link": 264
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 230
-        }
-      ],
-      "outputs": [
-        {
-          "name": "output",
-          "type": "LATENT",
-          "links": [
-            231
-          ]
-        },
-        {
-          "name": "denoised_output",
-          "type": "LATENT",
-          "links": []
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
-        "Node name for S&R": "SamplerCustomAdvanced",
         "ue_properties": {
           "widget_ue_connectable": {},
           "version": "7.8",
@@ -1220,53 +716,6 @@
       "widgets_values": []
     },
     {
-      "id": 25,
-      "type": "PreviewImage",
-      "pos": [
-        6227.607485816966,
-        -807.1324963845018
-      ],
-      "size": [
-        1683.3565127519596,
-        1186.2705970178492
-      ],
-      "flags": {},
-      "order": 26,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 238
-        }
-      ],
-      "outputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.23.0",
-        "Node name for S&R": "PreviewImage",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": []
-    },
-    {
       "id": 184,
       "type": "CFGOverride",
       "pos": [
@@ -1331,7 +780,7 @@
         176
       ],
       "flags": {},
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -1363,6 +812,622 @@
       ]
     },
     {
+      "id": 161,
+      "type": "SamplerCustomAdvanced",
+      "pos": [
+        5961.664213600695,
+        -905.8651982752868
+      ],
+      "size": [
+        239.0463046455252,
+        326
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 227
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 254
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 228
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 264
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 230
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            231
+          ]
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
+        "Node name for S&R": "SamplerCustomAdvanced",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        },
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 203,
+      "type": "PreviewAny",
+      "pos": [
+        5971.36913012114,
+        -1171.5265788577485
+      ],
+      "size": [
+        210,
+        166
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 300
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "PreviewAny",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.7"
+        }
+      },
+      "widgets_values": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 191,
+      "type": "FluxResolutionNode",
+      "pos": [
+        5931.271699885155,
+        1070.8307163835104
+      ],
+      "size": [
+        288,
+        224
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": [
+            283,
+            302
+          ]
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": [
+            284,
+            303
+          ]
+        },
+        {
+          "name": "resolution",
+          "type": "STRING",
+          "links": [
+            268
+          ]
+        },
+        {
+          "name": "preview",
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "controlaltai-nodes",
+        "ver": "721492b66c9cede8ae23ae10615462ad80cfd061",
+        "Node name for S&R": "FluxResolutionNode",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        "1.0",
+        "5:3 (Wide Horizon)",
+        "16",
+        false,
+        "1:1"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 197,
+      "type": "Seed (rgthree)",
+      "pos": [
+        5937.386487267739,
+        604.5290505858925
+      ],
+      "size": [
+        320,
+        144
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "SEED",
+          "shape": 3,
+          "type": "INT",
+          "links": [
+            280
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "738105af5fb14e96fbecaf406dc356e284797e8c",
+        "randomMax": 1125899906842624,
+        "randomMin": 0,
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        -1,
+        "",
+        "",
+        ""
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 25,
+      "type": "PreviewImage",
+      "pos": [
+        6214.797450805887,
+        -966.3429315219869
+      ],
+      "size": [
+        1683.3565127519596,
+        1186.2705970178492
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 238
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.23.0",
+        "Node name for S&R": "PreviewImage",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 190,
+      "type": "BasicScheduler",
+      "pos": [
+        5948.173426483014,
+        434.8419251590075
+      ],
+      "size": [
+        272,
+        112
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 292
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            263,
+            264
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "BasicScheduler",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        "simple",
+        40,
+        1
+      ]
+    },
+    {
+      "id": 181,
+      "type": "UNETLoader",
+      "pos": [
+        4123.754365907742,
+        -497.2275298914689
+      ],
+      "size": [
+        448,
+        96
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 6,
+      "mode": 0,
+      "showAdvanced": true,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            320
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
+        "Node name for S&R": "UNETLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        },
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "models": [
+          {
+            "name": "ideogram4_unconditional_fp8_scaled.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/Ideogram-4/resolve/main/diffusion_models/ideogram4_unconditional_fp8_scaled.safetensors",
+            "directory": "diffusion_models"
+          }
+        ]
+      },
+      "widgets_values": [
+        "ideogram4_unconditional_fp8_scaled.safetensors",
+        "default"
+      ]
+    },
+    {
+      "id": 209,
+      "type": "CLIPTextEncode",
+      "pos": [
+        5211.822795184888,
+        -521.2417760370062
+      ],
+      "size": [
+        679.7370628456802,
+        159.11368508461385
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 315
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            316
+          ]
+        }
+      ],
+      "title": "CLIP Text Encode (Nagative Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
+        "Node name for S&R": "CLIPTextEncode",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        },
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "text, letters, logo, watermark, purple mark, symbol, UI mark, signature, caption, annotation"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 212,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        4895.446825977386,
+        -478.1139909611843
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 324
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            329
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "LoraLoaderModelOnly",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.7"
+        }
+      },
+      "widgets_values": [
+        "mp_scifi_buggy_aitk_000001000.safetensors",
+        0.7
+      ]
+    },
+    {
+      "id": 211,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        4888.797632517938,
+        -319.4297221189548
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 322
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            323
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "LoraLoaderModelOnly",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.7"
+        }
+      },
+      "widgets_values": [
+        "mp_scifi_buggy_aitk_000001000.safetensors",
+        0.7
+      ]
+    },
+    {
+      "id": 210,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        4598.547954983781,
+        -488.23292566256106
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 320
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            324
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "LoraLoaderModelOnly",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.7"
+        }
+      },
+      "widgets_values": [
+        "mp_power_armor_aitk.safetensors",
+        0.35
+      ]
+    },
+    {
+      "id": 207,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        4602.701216826646,
+        -324.7228629008384
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 317
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            322
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.24.0",
+        "Node name for S&R": "LoraLoaderModelOnly",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.7"
+        }
+      },
+      "widgets_values": [
+        "mp_power_armor_aitk.safetensors",
+        0.35
+      ]
+    },
+    {
       "id": 204,
       "type": "Ideogram4PromptBuilderKJ",
       "pos": [
@@ -1371,10 +1436,10 @@
       ],
       "size": [
         703.8923648583277,
-        1798
+        1065
       ],
       "flags": {},
-      "order": 12,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
@@ -1455,15 +1520,15 @@
       "widgets_values": [
         1296,
         768,
-        "A polished game-art character sheet of a futuristic armored supersoldier, mp_power_armor.",
-        "A simple light concept-art background.",
-        "art_style",
-        "AAA game character design with a strong armored silhouette, heavy plating, clean mechanical shapes, full helmet, and a visually iconic reflective visor",
-        "heroic sci-fi character concept, clean presentation, production-ready readability",
-        "soft studio lighting with subtle reflections across armor surfaces",
-        "digital character concept art",
-        "[\"#4B5F36\",\"#1F2933\",\"#B08D38\",\"#0F172A\",\"#9CA3AF\"]",
-        "[{\"type\":\"obj\",\"text\":\"\",\"desc\":\"A single futuristic supersoldier in green powered armor standing in a neutral readable pose, with a reflective gold visor, reinforced shoulder armor, plated chest, heavy boots, and military sci-fi design language, mp_power_armor.\",\"palette\":[],\"x\":0.03,\"y\":0.03,\"w\":0.22,\"h\":0.14,\"nobbox\":true}]",
+        "A cinematic sci-fi battlefield production still showing a rugged military buggy drifting across rocky terrain while an armored supersoldier drives through dust and debris.",
+        "A wide rocky battlefield with uneven ground, scattered debris, light dust clouds, sparse alien vegetation, distant cliffs, and a dramatic cloudy sky. The scene is dusty and cinematic, with clear open space around the main vehicle silhouette.",
+        "photo",
+        "Shot like a high-budget sci-fi film still on a 35mm anamorphic lens, low tracking angle, sharp focus on the buggy and armored driver, subtle motion blur on dust and wheels, realistic lens contrast, slight cinematic grain, high dynamic range",
+        "cinematic sci-fi action scene, heroic military atmosphere, premium live-action game trailer look, dynamic motion, strong silhouette clarity",
+        "dramatic late-afternoon battlefield lighting with dusty air, warm highlights, soft atmospheric haze, and crisp reflections on armor and vehicle surfaces",
+        "cinematic photograph",
+        "[\"#4B5F36\",\"#2F3437\",\"#B08D38\",\"#111827\",\"#6B7280\",\"#D1D5DB\"]",
+        "[{\"type\":\"obj\",\"text\":\"\",\"desc\":\"A rugged sci-fi military buggy dominates the lower middle of the frame in a dynamic three-quarter front view, angled from lower left toward upper right as it drifts over rough terrain. It has large off-road tires, visible suspension, angular military body panels, an open-frame roll cage, a strong front bumper, armored side panels, and a wide all-terrain combat silhouette. Dust kicks outward from the rear wheels, emphasizing speed and weight.\",\"palette\":[],\"x\":0.09,\"y\":0.26,\"w\":0.81,\"h\":0.59},{\"type\":\"obj\",\"text\":\"\",\"desc\":\"A futuristic armored supersoldier is seated inside the buggy in a combat driving pose, clearly visible above the open cockpit. The driver grips the controls with armored gloves and wears green powered armor with a reflective gold visor, reinforced shoulder plates, heavy chest armor, dark undersuit gaps, and a compact heroic silhouette. The helmet and upper torso are readable without covering the vehicle shape.\",\"palette\":[],\"x\":0.378,\"y\":0.336,\"w\":0.205,\"h\":0.288},{\"type\":\"obj\",\"text\":\"\",\"desc\":\"A rear-mounted heavy machine gun turret rises above the back deck of the buggy, attached to a sturdy rotating base behind the cockpit. It has a long barrel assembly, dark mechanical housing, protective shield-like side plates, visible mounting hardware, and a short ammunition belt feed. The turret reads as part of the vehicle, not as a separate floating weapon.\",\"palette\":[],\"x\":0.54673153507733,\"y\":0.170291082793553,\"w\":0.28105705410222515,\"h\":0.2386590366270147},{\"type\":\"obj\",\"text\":\"\",\"desc\":\"A sweeping dust trail and scattered battlefield debris curve behind the buggy, following the vehicle's diagonal motion across the rocky ground. Small stones, tire marks, and pale dust clouds add speed and cinematic energy while keeping the buggy, armored driver, and rear turret clearly readable.\",\"palette\":[],\"x\":0.04,\"y\":0.61,\"w\":0.94,\"h\":0.33}]",
         25,
         "when empty",
         ""
@@ -1473,89 +1538,54 @@
           {
             "type": "obj",
             "text": "",
-            "desc": "A single futuristic supersoldier in green powered armor standing in a neutral readable pose, with a reflective gold visor, reinforced shoulder armor, plated chest, heavy boots, and military sci-fi design language, mp_power_armor.",
+            "desc": "A rugged sci-fi military buggy dominates the lower middle of the frame in a dynamic three-quarter front view, angled from lower left toward upper right as it drifts over rough terrain. It has large off-road tires, visible suspension, angular military body panels, an open-frame roll cage, a strong front bumper, armored side panels, and a wide all-terrain combat silhouette. Dust kicks outward from the rear wheels, emphasizing speed and weight.",
             "palette": [],
-            "x": 0.03,
-            "y": 0.03,
-            "w": 0.22,
-            "h": 0.14,
-            "nobbox": true
+            "x": 0.09,
+            "y": 0.26,
+            "w": 0.81,
+            "h": 0.59
+          },
+          {
+            "type": "obj",
+            "text": "",
+            "desc": "A futuristic armored supersoldier is seated inside the buggy in a combat driving pose, clearly visible above the open cockpit. The driver grips the controls with armored gloves and wears green powered armor with a reflective gold visor, reinforced shoulder plates, heavy chest armor, dark undersuit gaps, and a compact heroic silhouette. The helmet and upper torso are readable without covering the vehicle shape.",
+            "palette": [],
+            "x": 0.378,
+            "y": 0.336,
+            "w": 0.205,
+            "h": 0.288
+          },
+          {
+            "type": "obj",
+            "text": "",
+            "desc": "A rear-mounted heavy machine gun turret rises above the back deck of the buggy, attached to a sturdy rotating base behind the cockpit. It has a long barrel assembly, dark mechanical housing, protective shield-like side plates, visible mounting hardware, and a short ammunition belt feed. The turret reads as part of the vehicle, not as a separate floating weapon.",
+            "palette": [],
+            "x": 0.54673153507733,
+            "y": 0.170291082793553,
+            "w": 0.28105705410222515,
+            "h": 0.2386590366270147
+          },
+          {
+            "type": "obj",
+            "text": "",
+            "desc": "A sweeping dust trail and scattered battlefield debris curve behind the buggy, following the vehicle's diagonal motion across the rocky ground. Small stones, tire marks, and pale dust clouds add speed and cinematic energy while keeping the buggy, armored driver, and rear turret clearly readable.",
+            "palette": [],
+            "x": 0.04,
+            "y": 0.61,
+            "w": 0.94,
+            "h": 0.33
           }
         ],
         "palette": [
           "#4B5F36",
-          "#1F2933",
+          "#2F3437",
           "#B08D38",
-          "#0F172A",
-          "#9CA3AF"
+          "#111827",
+          "#6B7280",
+          "#D1D5DB"
         ],
         "importMode": "when empty"
       }
-    },
-    {
-      "id": 191,
-      "type": "FluxResolutionNode",
-      "pos": [
-        5931.271699885155,
-        1070.8307163835104
-      ],
-      "size": [
-        288,
-        224
-      ],
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "width",
-          "type": "INT",
-          "links": [
-            283,
-            302
-          ]
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": [
-            284,
-            303
-          ]
-        },
-        {
-          "name": "resolution",
-          "type": "STRING",
-          "links": [
-            268
-          ]
-        },
-        {
-          "name": "preview",
-          "type": "IMAGE",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "controlaltai-nodes",
-        "ver": "721492b66c9cede8ae23ae10615462ad80cfd061",
-        "Node name for S&R": "FluxResolutionNode",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        "1.0",
-        "5:8 (Tall Portrait)",
-        "16",
-        false,
-        "1:1"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
     }
   ],
   "links": [
@@ -1808,7 +1838,7 @@
       "MODEL"
     ],
     [
-      327,
+      329,
       212,
       0,
       182,
@@ -1820,10 +1850,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.6612003786629578,
+      "scale": 0.7273204165292572,
       "offset": [
-        -4558.217846867944,
-        616.7472177272624
+        -4635.257725268826,
+        1048.9526886018857
       ]
     },
     "frontendVersion": "1.45.19",

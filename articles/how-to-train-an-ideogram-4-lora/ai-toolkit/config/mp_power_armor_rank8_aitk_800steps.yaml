@@ -1,0 +1,97 @@
+---
+job: extension
+config:
+  name: "mp_power_armor_rank8_aitk"
+  process:
+    - type: "sd_trainer"
+      training_folder: "C:/ideogram4_lora_training/mp_power_armor/output_aitk_rank8"
+      device: cuda:0
+      trigger_word: "mp_power_armor"
+
+      network:
+        type: "lora"
+        linear: 8
+        linear_alpha: 8
+
+      save:
+        dtype: float16
+        save_every: 100
+        max_step_saves_to_keep: 5
+        save_format: "safetensors"
+        push_to_hub: false
+
+      datasets:
+        - folder_path: "C:/ideogram4_lora_training/mp_power_armor/images"
+          caption_ext: "txt"
+          caption_dropout_rate: 0.05
+          shuffle_tokens: false
+          cache_latents_to_disk: true
+          cache_text_embeddings: true
+          resolution: [768]
+
+      train:
+        batch_size: 1
+        gradient_accumulation_steps: 1
+        steps: 800
+        train_unet: true
+        train_text_encoder: false
+        gradient_checkpointing: true
+        cache_text_embeddings: true
+        disable_sampling: true
+        noise_scheduler: "flowmatch"
+        optimizer: "adamw8bit"
+        lr: 0.0001
+        dtype: bf16
+
+      model:
+        name_or_path: "C:/ai-toolkit/models/ideogram-4-fp8"
+        arch: "ideogram4"
+        quantize: true
+        quantize_te: true
+        low_vram: true
+        layer_offloading: true
+        layer_offloading_text_encoder_percent: 95
+        layer_offloading_transformer_percent: 95
+        model_kwargs:
+          text_encoder_path: "C:/ai-toolkit/models/ideogram-4-fp8/text_encoder"
+          max_text_length: 2048
+
+      sample:
+        disable_sampling: true
+        sampler: "flowmatch"
+        sample_every: 100
+        width: 768
+        height: 768
+        prompts:
+          - |
+            {
+              "high_level_description": "A polished full-body game-art reference image of a futuristic armored supersoldier in heavy powered armor, mp_power_armor.",
+              "style_description": {
+                "aesthetics": "heroic sci-fi character concept, clean presentation, production-ready readability, mp_power_armor",
+                "lighting": "soft studio lighting with clear visibility of hard-surface armor forms",
+                "medium": "digital character concept art",
+                "art_style": "AAA sci-fi game character rendering with layered green and gunmetal powered armor, angular helmet, reflective gold visor, bulky shoulder plates, segmented torso armor, and readable mechanical details"
+              },
+              "compositional_deconstruction": {
+                "background": "A clean neutral studio background.",
+                "elements": [
+                  {
+                    "type": "obj",
+                    "desc": "A single futuristic supersoldier wearing mp_power_armor, shown in a strong three-quarter standing pose with heavy green powered armor, dark undersuit gaps, angular hard-surface plating, a reflective gold visor, and a broad heroic silhouette."
+                  }
+                ]
+              }
+            }
+        neg: "text, letters, words, labels, annotation, callout, arrows, caption, watermark, signature, logo"
+        seed: 12345
+        walk_seed: false
+        guidance_scale: 5
+        sample_steps: 48
+
+meta:
+  name: "mp_power_armor_rank8_aitk"
+  version: "1.0"
+  dataset: "mp_power_armor"
+  base_model: "ideogram-4-fp8"
+  trigger_token: "mp_power_armor"
+  notes: "Stackable power armor LoRA, 7 images, rank 8 alpha 8, 800 steps, saves every 100 steps and keeps the last five checkpoints."
