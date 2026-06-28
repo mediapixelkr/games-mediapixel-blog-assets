@@ -1,0 +1,42 @@
+{
+  "high_level_description": "A cinematic action reference image showing a futuristic olive-green sci-fi military buggy driving fast across a desert terrain while a rear gunner fires a mounted turret. The vehicle has a low armored off-road body, open side cockpit, black roll-cage frame, angular side armor panels, oversized rugged tires, compact front bumper guards, visible cockpit occupants, and a rear-mounted machine gun with a bright muzzle flash. The scene emphasizes speed, combat movement, dust, and the wide all-terrain silhouette of a tactical sci-fi buggy, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "cinematic outdoor daylight with motion blur, dust haze, and bright weapon flash",
+    "medium": "film still or realistic render",
+    "art_style": "realistic hard-surface sci-fi vehicle action reference"
+  },
+  "compositional_deconstruction": {
+    "background": "A desert battlefield or open dry landscape with distant hills, dusty ground, a cloudy sky, and motion haze, creating a fast combat patrol atmosphere.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown in a side three-quarter action view, moving quickly across the terrain with a low armored silhouette and wide off-road stance."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-green body has angular hard-surface side panels, an open side cockpit, black roll-cage structure, compact front guard rails, and a flat rear cargo deck."
+      },
+      {
+        "type": "obj",
+        "desc": "Four large off-road tires support the buggy, with visible motion blur and dust around the wheels to emphasize speed."
+      },
+      {
+        "type": "obj",
+        "desc": "The cockpit contains a helmeted driver and passenger, both partially enclosed by the armored side panels and tubular frame."
+      },
+      {
+        "type": "obj",
+        "desc": "A rear-mounted machine gun turret is operated by an armored gunner standing behind the cockpit, firing upward with a bright orange muzzle flash."
+      },
+      {
+        "type": "obj",
+        "desc": "The vehicle surface shows military-style olive armor, dark metal frame elements, dusty edges, side markings, rugged mechanical proportions, and practical combat vehicle detailing."
+      },
+      {
+        "type": "obj",
+        "desc": "Dust trails, blurred wheels, and the firing turret create a dynamic combat action scene focused on the mp_scifi_buggy in motion."
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "high_level_description": "A close-up cinematic game-art reference image of a futuristic armored supersoldier helmet and upper torso, mp_power_armor.",
+  "style_description": {
+    "aesthetics": "heroic sci-fi character concept, clean presentation, production-ready readability",
+    "lighting": "warm cinematic lighting with subtle reflections across worn armor surfaces",
+    "medium": "digital character concept art",
+    "art_style": "AAA game character design with a strong armored silhouette, heavy plating, clean mechanical shapes, full helmet, and a visually iconic reflective visor",
+    "color_palette": ["#4B5F36", "#1F2933", "#B08D38", "#0F172A", "#9CA3AF"]
+  },
+  "compositional_deconstruction": {
+    "background": "A softly blurred warm-toned combat or industrial environment that keeps the helmet, visor, and upper armor clearly readable.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "A single futuristic supersoldier shown in a tight close-up from the shoulders upward, wearing heavy green powered armor with a strong iconic silhouette, mp_power_armor."
+      },
+      {
+        "type": "obj",
+        "desc": "The full helmet has angular sci-fi construction, a reinforced brow, layered cheek plates, a heavy jaw section, dark mechanical seams, and worn olive-green armor surfaces."
+      },
+      {
+        "type": "obj",
+        "desc": "A large reflective gold visor dominates the face area, with clean geometric visor paneling and warm reflections that create a strong heroic focal point."
+      },
+      {
+        "type": "obj",
+        "desc": "The upper torso includes bulky shoulder armor, layered chest plating, dark ribbed undersuit sections, beveled hard-surface edges, and visible scuffs across the military armor finish."
+      },
+      {
+        "type": "obj",
+        "desc": "Fine surface details include chipped paint, scratches, dark panel gaps, small mechanical grooves, and realistic material wear that improve production-ready armor readability."
+      }
+    ]
+  }
+}

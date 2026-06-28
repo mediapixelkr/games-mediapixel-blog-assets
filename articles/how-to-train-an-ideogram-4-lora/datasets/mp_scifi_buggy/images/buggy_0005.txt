@@ -1,0 +1,42 @@
+{
+  "high_level_description": "A side-view reference image showing a full-scale futuristic olive-green sci-fi military buggy inside a workshop. The vehicle has a long angular armored body, open side cockpit, dark windshield canopy, large off-road tires, rugged wheel arches, weathered armor panels, black lower trim, and a rear-mounted turret with a long gun barrel. The design emphasizes a practical combat buggy silhouette with wide all-terrain proportions, exposed mechanical structure, modular paneling, and worn military surface details, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "indoor workshop lighting with diffuse overhead illumination",
+    "medium": "photo reference",
+    "art_style": "realistic hard-surface sci-fi vehicle reference"
+  },
+  "compositional_deconstruction": {
+    "background": "An indoor workshop or fabrication space with white partition walls, storage shelves, overhead lighting, and a concrete floor, presenting the vehicle as a full-scale practical sci-fi prop or reference model.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown in a clean left side profile, emphasizing the long armored body, low sci-fi silhouette, wide wheelbase, and rugged combat vehicle proportions."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-green side armor has angular hard-surface panels, beveled edges, layered black trim, recessed vents, panel seams, and weathered paint wear."
+      },
+      {
+        "type": "obj",
+        "desc": "The open cockpit sits near the center of the vehicle, with a visible seat area, dark windshield canopy, black roll-cage framing, and deep side entry cutouts."
+      },
+      {
+        "type": "obj",
+        "desc": "Four oversized black off-road tires with deep blocky tread support the vehicle, giving it a heavy all-terrain stance."
+      },
+      {
+        "type": "obj",
+        "desc": "A rear-mounted turret rises above the back deck, fitted with a long mounted gun barrel and protective shield-like plates."
+      },
+      {
+        "type": "obj",
+        "desc": "The rear section has a flat cargo-like deck, angular side armor, and a raised turret base integrated into the armored frame."
+      },
+      {
+        "type": "obj",
+        "desc": "The image highlights practical hard-surface details such as scratches, grime, weathered green paint, black mechanical underbody shapes, rubber tire texture, and worn metal panel edges."
+      }
+    ]
+  }
+}

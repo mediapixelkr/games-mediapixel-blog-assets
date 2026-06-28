@@ -1,0 +1,39 @@
+{
+  "high_level_description": "A cinematic game-art reference image of a futuristic armored supersoldier in heavy powered armor, mp_power_armor.",
+  "style_description": {
+    "aesthetics": "heroic sci-fi character concept, clean presentation, production-ready readability",
+    "lighting": "cinematic action lighting with warm sparks, smoke, and subtle reflections across armor surfaces",
+    "medium": "digital character concept art",
+    "art_style": "AAA game character design with a strong armored silhouette, heavy plating, clean mechanical shapes, full helmet, and a visually iconic reflective visor",
+    "color_palette": ["#4B5F36", "#1F2933", "#B08D38", "#0F172A", "#9CA3AF"]
+  },
+  "compositional_deconstruction": {
+    "background": "A cinematic industrial combat background with smoke trails, warm sparks, and blurred structural elements that keep the armored character readable.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "A single futuristic supersoldier wearing dark green and gunmetal powered armor, standing in a strong forward-facing combat pose with a broad armored silhouette, mp_power_armor."
+      },
+      {
+        "type": "obj",
+        "desc": "The full helmet has angular sci-fi construction, reinforced cheek and brow plating, and a large reflective gold visor that creates a strong iconic focal point."
+      },
+      {
+        "type": "obj",
+        "desc": "The torso armor is built from layered hard-surface plates, with a heavy chest section, segmented abdominal protection, mechanical seams, dark undersuit gaps, and production-ready material readability."
+      },
+      {
+        "type": "obj",
+        "desc": "The shoulders, forearms, gloves, hips, and thighs use bulky reinforced armor plating with beveled edges, dark joints, and compact mechanical paneling."
+      },
+      {
+        "type": "obj",
+        "desc": "The character holds a large futuristic rifle across the chest, adding a military sci-fi silhouette while keeping the armor design clearly visible."
+      },
+      {
+        "type": "obj",
+        "desc": "Bright smoke trails and sparks flare behind the figure, framing the powered armor and emphasizing a heroic live-action combat reference look."
+      }
+    ]
+  }
+}

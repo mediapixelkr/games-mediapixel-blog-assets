@@ -1,0 +1,42 @@
+{
+  "high_level_description": "A detailed reference image showing a futuristic olive-green sci-fi military buggy in a front three-quarter elevated view. The vehicle has a low armored off-road body, angular hood panels, dark transparent windshield canopy, open side cockpit, rugged oversized tires, visible suspension, tubular front and side guard rails, and a rear-mounted rotating machine gun turret. The design combines compact armored vehicle proportions with exposed mechanical details, military markings, dark metal trim, and a practical all-terrain combat silhouette, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "bright product lighting with soft shadows",
+    "medium": "3D render",
+    "art_style": "realistic hard-surface sci-fi vehicle render"
+  },
+  "compositional_deconstruction": {
+    "background": "A clean plain white background with a soft shadow beneath the vehicle, keeping the focus on the sci-fi buggy shape and hard-surface design details.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown in a front three-quarter elevated view, emphasizing the compact armored body, wide wheelbase, and rugged off-road proportions."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-green armored body has a sloped angular hood, modular side panels, dark lower trim, white military-style markings, and beveled hard-surface edges."
+      },
+      {
+        "type": "obj",
+        "desc": "The front section includes tubular guard rails, small round headlights, hood vents, exposed suspension elements, and dark mechanical components beneath the nose."
+      },
+      {
+        "type": "obj",
+        "desc": "Four oversized black off-road tires with heavy tread give the vehicle a strong all-terrain stance."
+      },
+      {
+        "type": "obj",
+        "desc": "The cockpit has a dark transparent windshield canopy, open side entry, visible seats, and a protective black frame integrated into the vehicle body."
+      },
+      {
+        "type": "obj",
+        "desc": "A rear-mounted rotating turret rises above the back of the vehicle, fitted with a multi-barrel machine gun and a curved ammunition belt feed."
+      },
+      {
+        "type": "obj",
+        "desc": "The render highlights realistic sci-fi hard-surface details, including panel seams, armor latches, metallic rails, dark glass, rubber tire texture, and subtle weathered edges."
+      }
+    ]
+  }
+}

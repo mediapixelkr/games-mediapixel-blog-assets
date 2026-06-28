@@ -1,0 +1,43 @@
+{
+  "high_level_description": "A polished full-body game-art character reference of a futuristic armored supersoldier holding a compact sci-fi rifle, mp_power_armor.",
+  "style_description": {
+    "aesthetics": "heroic sci-fi character concept, clean presentation, production-ready readability",
+    "lighting": "soft studio lighting with subtle reflections across worn armor surfaces",
+    "medium": "digital character concept art",
+    "art_style": "AAA game character design with a strong armored silhouette, heavy plating, clean mechanical shapes, full helmet, and a visually iconic reflective visor",
+    "color_palette": ["#4B5F36", "#1F2933", "#B08D38", "#0F172A", "#9CA3AF"]
+  },
+  "compositional_deconstruction": {
+    "background": "A clean plain light background that keeps the full armored silhouette easy to read for character reference use.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "A single futuristic supersoldier stands in a full-body three-quarter pose, wearing green powered armor with a strong heroic silhouette and clear production-ready readability, mp_power_armor."
+      },
+      {
+        "type": "obj",
+        "desc": "The full helmet has angular hard-surface construction, reinforced side plating, a compact jaw section, and a reflective gold visor that forms the main focal point."
+      },
+      {
+        "type": "obj",
+        "desc": "The torso armor features layered green chest plates, segmented abdominal protection, dark undersuit gaps, mechanical panel seams, and white numeric markings on the upper chest."
+      },
+      {
+        "type": "obj",
+        "desc": "The shoulders, forearms, gloves, hips, thighs, knees, shins, and boots use bulky reinforced armor plating with beveled edges, dark joints, and rugged military sci-fi proportions."
+      },
+      {
+        "type": "obj",
+        "desc": "The character holds a compact futuristic rifle diagonally across the chest with both hands, adding a tactical pose while keeping the armor design visible."
+      },
+      {
+        "type": "obj",
+        "desc": "The armor surfaces show realistic battle wear, including chipped green paint, scratches, dark panel gaps, edge abrasion, and muted metallic scuffing across the plates."
+      },
+      {
+        "type": "obj",
+        "desc": "The boots and leg armor create a heavy grounded stance, with large armored feet and segmented knee protection reinforcing the powered exosuit design."
+      }
+    ]
+  }
+}

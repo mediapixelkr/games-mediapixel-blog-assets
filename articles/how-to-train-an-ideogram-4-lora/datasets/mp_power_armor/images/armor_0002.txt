@@ -1,0 +1,39 @@
+{
+  "high_level_description": "A cinematic game-art reference image of a futuristic armored supersoldier landing in a heavy combat pose, mp_power_armor.",
+  "style_description": {
+    "aesthetics": "heroic sci-fi character concept, clean presentation, production-ready readability",
+    "lighting": "cinematic battlefield lighting with smoke, sparks, fire glow, and subtle reflections across armor surfaces",
+    "medium": "digital character concept art",
+    "art_style": "AAA game character design with a strong armored silhouette, heavy plating, clean mechanical shapes, full helmet, and a visually iconic reflective visor",
+    "color_palette": ["#4B5F36", "#1F2933", "#B08D38", "#0F172A", "#9CA3AF"]
+  },
+  "compositional_deconstruction": {
+    "background": "A dusty industrial combat environment with smoke clouds, sparks, fire, debris, and blurred structural elements that frame the armored figure.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "A single futuristic supersoldier in heavy green-gray powered armor crouching in a dynamic landing pose, with one hand braced on the ground and one arm pulled back, mp_power_armor."
+      },
+      {
+        "type": "obj",
+        "desc": "The full helmet has angular military sci-fi construction, dark reinforced plating, a compact brow shape, and a reflective gold visor that remains the main visual focal point."
+      },
+      {
+        "type": "obj",
+        "desc": "The chest and torso armor are built from layered hard-surface plates with dark undersuit gaps, segmented abdominal protection, mechanical seams, and heavy reinforced forms."
+      },
+      {
+        "type": "obj",
+        "desc": "The shoulder armor, forearms, gloves, thighs, knees, and boots feature bulky beveled plating, dark joint areas, compact panel lines, and realistic worn metal surfaces."
+      },
+      {
+        "type": "obj",
+        "desc": "The pose emphasizes weight and impact, with one knee close to the ground, one boot planted forward, dust rising around the lower armor, and the silhouette clearly readable."
+      },
+      {
+        "type": "obj",
+        "desc": "Smoke, sparks, fire glow, and battlefield debris surround the armored supersoldier, adding cinematic action while keeping the mp_power_armor design visible."
+      }
+    ]
+  }
+}

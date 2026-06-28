@@ -19,6 +19,12 @@ Companion files for the Media-Pixel article about training a small Ideogram 4 Lo
 - `workflows/ideogram4_lora_test_workflow.json`  
   ComfyUI workflow for testing the LoRA with Ideogram 4.
 
+- `datasets/mp_scifi_buggy/images`  
+  Clean 13-image dataset with matching JSON `.txt` captions.
+
+- `datasets/mp_power_armor/images`  
+  Clean 7-image dataset with matching JSON `.txt` captions.
+
 ## Expected Local Paths
 
 The sample config assumes this Windows layout:

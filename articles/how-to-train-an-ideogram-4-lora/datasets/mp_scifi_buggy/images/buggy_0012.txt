@@ -1,0 +1,46 @@
+{
+  "high_level_description": "A cinematic close-up reference image showing the upper rear section of a futuristic olive-green sci-fi military buggy under a bright blue sky. The image focuses on the open roll-cage cockpit, rear cargo deck, mounted heavy machine gun turret, angular armored body panels, tubular side rails, and armored soldiers positioned around the vehicle. One armored gunner stands on the rear deck near the turret while another armored occupant sits inside the cockpit, emphasizing the buggy as an active combat support vehicle, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "bright outdoor daylight with strong highlights and clear sky shadows",
+    "medium": "film still or realistic production reference",
+    "art_style": "realistic hard-surface sci-fi vehicle action reference"
+  },
+  "compositional_deconstruction": {
+    "background": "A bright outdoor background with blue sky, white clouds, and partial set or urban structures, keeping the focus on the buggy’s upper frame and turret area.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown in a tight side close-up, emphasizing the upper rear body, open cockpit, turret platform, and tactical support layout."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-green armored body has angular side panels, dusty matte surfaces, beveled hard-surface edges, and a white military-style side emblem."
+      },
+      {
+        "type": "obj",
+        "desc": "The open cockpit includes visible dark seats, black roll-cage bars, thick protective frame supports, and an armored occupant seated inside."
+      },
+      {
+        "type": "obj",
+        "desc": "Tubular side rails run along the rear deck and side body, adding protective utility structure to the combat buggy silhouette."
+      },
+      {
+        "type": "obj",
+        "desc": "A rear-mounted heavy machine gun turret rises above the vehicle, with a long barrel assembly, shield-like side plate, and vertical mounting support."
+      },
+      {
+        "type": "obj",
+        "desc": "An armored gunner stands on the rear deck near the turret, wearing dark futuristic combat armor and facing the mounted weapon."
+      },
+      {
+        "type": "obj",
+        "desc": "A second armored figure sits inside the cockpit, partly visible behind the roll-cage structure and dark seat."
+      },
+      {
+        "type": "obj",
+        "desc": "The close-up highlights hard-surface details such as roll-cage tubing, turret hardware, angular armor seams, dusty paint, metal rails, and practical sci-fi military vehicle construction."
+      }
+    ]
+  }
+}

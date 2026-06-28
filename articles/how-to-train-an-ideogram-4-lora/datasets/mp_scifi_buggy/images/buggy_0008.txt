@@ -1,0 +1,42 @@
+{
+  "high_level_description": "A cinematic urban reference image showing a futuristic olive-green sci-fi military buggy from a low front view. The vehicle has a broad armored hood, oversized off-road tires, heavy front suspension, exposed winch mechanism, compact front light cluster, tubular bumper guards, dark windshield canopy, roof light bar, open side cockpit, and black roll-cage structure. The design emphasizes a powerful front stance, rugged tactical proportions, and practical armored utility details suitable for a sci-fi combat patrol vehicle, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "cool urban daylight with soft reflections and muted shadows",
+    "medium": "film still or realistic render",
+    "art_style": "realistic hard-surface sci-fi vehicle action reference"
+  },
+  "compositional_deconstruction": {
+    "background": "An urban street environment with stone building facades, storefront signage, and a partial second sci-fi buggy visible at the right edge, creating a tactical convoy atmosphere.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown from a low front angle, emphasizing its aggressive width, oversized tires, and armored sci-fi military silhouette."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-green front body has a broad angular hood, hard-surface armor panels, dark trim, hood number marking, and beveled panel edges."
+      },
+      {
+        "type": "obj",
+        "desc": "The front section includes a compact multi-lens light cluster, exposed winch assembly, heavy metal brackets, and tubular bumper guards wrapping around the nose."
+      },
+      {
+        "type": "obj",
+        "desc": "Two massive front tires with deep blocky tread dominate the foreground, giving the vehicle a strong all-terrain combat stance."
+      },
+      {
+        "type": "obj",
+        "desc": "The visible front suspension and axle components sit beneath the armored body, adding mechanical realism and rugged off-road functionality."
+      },
+      {
+        "type": "obj",
+        "desc": "The upper cabin area includes a dark windshield canopy, roof-mounted light bar, open side cockpit, and black roll-cage frame."
+      },
+      {
+        "type": "obj",
+        "desc": "The image highlights hard-surface vehicle details such as armor seams, metal guard rails, glass reflections, rugged rubber tire texture, front utility hardware, and matte military paint."
+      }
+    ]
+  }
+}

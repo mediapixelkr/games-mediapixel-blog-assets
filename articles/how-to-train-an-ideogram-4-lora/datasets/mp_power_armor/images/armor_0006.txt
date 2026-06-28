@@ -1,0 +1,43 @@
+{
+  "high_level_description": "A cinematic game-art reference image of a futuristic armored supersoldier aiming a large sci-fi rifle in a forest environment, mp_power_armor.",
+  "style_description": {
+    "aesthetics": "heroic sci-fi character concept, clean presentation, production-ready readability",
+    "lighting": "natural forest lighting with soft green reflections, glowing sparks, and subtle highlights across armor surfaces",
+    "medium": "digital character concept art",
+    "art_style": "AAA game character design with a strong armored silhouette, heavy plating, clean mechanical shapes, full helmet, and a visually iconic reflective visor",
+    "color_palette": ["#4B5F36", "#1F2933", "#B08D38", "#0F172A", "#9CA3AF"]
+  },
+  "compositional_deconstruction": {
+    "background": "A dense forest background with blurred tree trunks, green foliage, soft bokeh highlights, smoke haze, and moss-covered foreground branches.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "A single futuristic supersoldier in dark green powered armor stands in a tense aiming pose, holding a large sci-fi rifle across the upper body, mp_power_armor."
+      },
+      {
+        "type": "obj",
+        "desc": "The full helmet has angular military sci-fi construction, dark cheek plating, a reinforced jaw section, and a large reflective gold visor that creates a strong focal point."
+      },
+      {
+        "type": "obj",
+        "desc": "The torso armor features heavy layered chest plates, segmented abdominal protection, dark undersuit gaps, ribbed flexible sections, and clean hard-surface mechanical paneling."
+      },
+      {
+        "type": "obj",
+        "desc": "The shoulders, forearms, gloves, and upper arms use bulky reinforced armor plates with beveled edges, compact panel seams, and dark joint materials."
+      },
+      {
+        "type": "obj",
+        "desc": "The large futuristic rifle has a long rectangular body, extended barrel, underside grip area, layered mechanical panels, and a heavy military sci-fi silhouette."
+      },
+      {
+        "type": "obj",
+        "desc": "Bright impact sparks and small glowing particles reflect on the gold visor and surrounding armor, adding a cinematic combat moment while keeping the character design readable."
+      },
+      {
+        "type": "obj",
+        "desc": "The armor surfaces show realistic wear with dark green paint, wet forest reflections, muted scratches, dust, panel gaps, and subtle edge abrasion."
+      }
+    ]
+  }
+}

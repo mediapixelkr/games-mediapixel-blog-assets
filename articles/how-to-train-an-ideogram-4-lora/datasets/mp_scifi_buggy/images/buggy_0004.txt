@@ -1,0 +1,42 @@
+{
+  "high_level_description": "A cinematic action reference image showing a futuristic olive-green sci-fi military buggy driving across a dusty rocky terrain. The vehicle has a low armored off-road body, angular hood, dark windshield canopy, open side cockpit, black roll-cage frame, oversized rugged tires, compact front headlights, reinforced front bumper, exposed suspension, and modular side armor panels. A helmeted driver is visible inside the cockpit, giving the image a dynamic combat patrol feeling, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "cinematic outdoor lighting with dust haze and strong natural shadows",
+    "medium": "film still or realistic render",
+    "art_style": "realistic hard-surface sci-fi vehicle render"
+  },
+  "compositional_deconstruction": {
+    "background": "A rugged rocky canyon environment with a dirt road, cliff wall, and dust haze behind the moving vehicle, creating a dynamic military patrol scene.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown in a front three-quarter action view, emphasizing its wide stance, low armored silhouette, and heavy off-road proportions."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-green body has angular armor panels, a sloped hood, compact side doors, dark lower trim, and hard-surface beveled panel edges."
+      },
+      {
+        "type": "obj",
+        "desc": "The front section includes compact multi-lens headlights, a reinforced bumper, dark mechanical undercarriage parts, and exposed suspension elements."
+      },
+      {
+        "type": "obj",
+        "desc": "Four oversized black tires with deep tread grip the dusty terrain, giving the buggy a rugged all-terrain combat profile."
+      },
+      {
+        "type": "obj",
+        "desc": "The cockpit has a dark windshield canopy, open side entry, visible seat area, and a black protective roll-cage frame."
+      },
+      {
+        "type": "obj",
+        "desc": "A helmeted driver sits inside the open cockpit, partially visible through the side opening and windshield frame."
+      },
+      {
+        "type": "obj",
+        "desc": "The image highlights dusty armor surfaces, dark glass reflections, rugged tire texture, panel seams, military utility shapes, and motion dust around the vehicle."
+      }
+    ]
+  }
+}

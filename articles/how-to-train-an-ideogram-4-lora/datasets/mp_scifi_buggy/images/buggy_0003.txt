@@ -1,0 +1,42 @@
+{
+  "high_level_description": "A realistic outdoor render showing a futuristic sci-fi military buggy parked on a wooden bridge in a lush jungle environment. The vehicle has an olive-gray armored off-road body, angular hard-surface panels, open side cockpit, dark windshield canopy, oversized rugged tires, exposed front suspension, red coil springs, tubular front guard rails, compact headlights, and a small roof-mounted equipment module. The design emphasizes a practical all-terrain exploration and combat buggy silhouette, with detailed mechanical undercarriage parts and realistic hard-surface materials, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "natural outdoor lighting with bright highlights and soft environmental shadows",
+    "medium": "3D render",
+    "art_style": "realistic hard-surface sci-fi vehicle render"
+  },
+  "compositional_deconstruction": {
+    "background": "A lush jungle scene with large green plants, trees, rocks, misty waterfalls, and a wooden bridge beneath the vehicle, creating an adventurous outdoor sci-fi exploration setting.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown in a front three-quarter view, emphasizing its wide off-road stance, low armored body, and rugged military exploration design."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-gray armored body uses angular hard-surface panels, beveled edges, modular side plating, dark lower trim, and subtle white military-style markings."
+      },
+      {
+        "type": "obj",
+        "desc": "The front section includes tubular guard rails, compact multi-lens headlights, hood vents, visible winch-like mechanical parts, exposed suspension arms, and red coil springs."
+      },
+      {
+        "type": "obj",
+        "desc": "Four oversized black off-road tires with deep tread give the buggy a heavy all-terrain profile suitable for jungle and rocky terrain."
+      },
+      {
+        "type": "obj",
+        "desc": "The cockpit is open at the sides with visible seats, dark frame bars, a protective roll-cage structure, and a dark transparent windshield canopy."
+      },
+      {
+        "type": "obj",
+        "desc": "A small roof-mounted equipment module sits above the windshield area, adding a compact tactical sensor-like detail to the exploration configuration."
+      },
+      {
+        "type": "obj",
+        "desc": "The render highlights realistic hard-surface modeling with panel seams, metal rails, latches, bolts, glass reflections, rubber tire texture, and weathered mechanical parts."
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "high_level_description": "A realistic outdoor reference image showing a futuristic olive-green sci-fi off-road buggy in a rear three-quarter view. The vehicle has an open tubular roll-cage cockpit, angular armored side panels, oversized rugged tires, exposed rear suspension, visible axle and mechanical undercarriage parts, dark metal frame elements, and a rear cargo rack carrying multiple red fuel canisters. The design emphasizes a lightweight tactical scout buggy silhouette with high ground clearance, wide all-terrain stance, modular armor surfaces, and practical utility equipment, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "bright outdoor lighting with strong highlights and defined shadows",
+    "medium": "photo reference",
+    "art_style": "realistic hard-surface sci-fi vehicle reference"
+  },
+  "compositional_deconstruction": {
+    "background": "An urban industrial setting with a colorful graffiti-covered corrugated wall and concrete ground, creating a gritty outdoor display environment for the sci-fi buggy.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown from the rear three-quarter angle, emphasizing the wide stance, open cockpit, rugged tires, and tactical utility silhouette."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-green armored body has angular side panels, beveled hard-surface shapes, open side entry, dark lower trim, and a white military-style side emblem."
+      },
+      {
+        "type": "obj",
+        "desc": "The open cockpit includes visible seats, black tubular roll-cage bars, exposed frame structure, and a compact interior layout."
+      },
+      {
+        "type": "obj",
+        "desc": "Four oversized off-road tires with aggressive deep tread give the buggy a heavy all-terrain profile and high ground clearance."
+      },
+      {
+        "type": "obj",
+        "desc": "The rear section shows exposed suspension components, red coil springs, a visible axle, mechanical linkages, and dark undercarriage parts."
+      },
+      {
+        "type": "obj",
+        "desc": "A rear cargo rack holds multiple red fuel canisters, adding a practical expedition and tactical support detail to the vehicle."
+      },
+      {
+        "type": "obj",
+        "desc": "The image highlights hard-surface details such as panel seams, tubular rails, bolts, rugged tire texture, weathered armor surfaces, and exposed mechanical parts."
+      }
+    ]
+  }
+}

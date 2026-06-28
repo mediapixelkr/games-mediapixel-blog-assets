@@ -1,0 +1,43 @@
+{
+  "high_level_description": "A cinematic game-art reference image of a futuristic armored supersoldier standing in a forest environment while holding a compact firearm, mp_power_armor.",
+  "style_description": {
+    "aesthetics": "heroic sci-fi character concept, clean presentation, production-ready readability",
+    "lighting": "natural forest lighting with soft green reflections across armor surfaces",
+    "medium": "digital character concept art",
+    "art_style": "AAA game character design with a strong armored silhouette, heavy plating, clean mechanical shapes, full helmet, and a visually iconic reflective visor",
+    "color_palette": ["#4B5F36", "#1F2933", "#B08D38", "#0F172A", "#9CA3AF"]
+  },
+  "compositional_deconstruction": {
+    "background": "A dense green forest background with blurred leaves, tree trunks, and natural shadow patterns that frame the armored figure while keeping the silhouette readable.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "A single futuristic supersoldier in dark green powered armor stands in a cautious combat pose among trees, with the upper body and legs partially visible, mp_power_armor."
+      },
+      {
+        "type": "obj",
+        "desc": "The full helmet has angular military sci-fi construction, dark cheek plating, a reinforced jaw section, and a reflective gold visor that creates the main focal point."
+      },
+      {
+        "type": "obj",
+        "desc": "The torso armor features heavy layered chest plates, segmented abdominal protection, dark undersuit gaps, ribbed neck material, and clean hard-surface mechanical paneling."
+      },
+      {
+        "type": "obj",
+        "desc": "The shoulders, upper arms, forearms, gloves, thighs, and knees use bulky reinforced armor plates with beveled edges, compact panel seams, and dark flexible joint sections."
+      },
+      {
+        "type": "obj",
+        "desc": "The figure holds a compact futuristic firearm close to the chest with both hands, adding a tactical military pose while keeping the armor design clearly readable."
+      },
+      {
+        "type": "obj",
+        "desc": "A large tree trunk cuts across the lower right foreground, creating depth and suggesting the armored supersoldier is moving through woodland cover."
+      },
+      {
+        "type": "obj",
+        "desc": "The armor surfaces show subtle weathering, dark green paint, muted scratches, soft edge wear, and realistic material reflections from the surrounding forest light."
+      }
+    ]
+  }
+}

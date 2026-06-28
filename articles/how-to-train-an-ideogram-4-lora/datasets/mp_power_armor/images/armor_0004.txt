@@ -1,0 +1,39 @@
+{
+  "high_level_description": "A polished game-art reference image of a futuristic armored supersoldier with visible battle damage and bullet impacts across the armor, mp_power_armor.",
+  "style_description": {
+    "aesthetics": "heroic sci-fi character concept, clean presentation, production-ready readability",
+    "lighting": "natural outdoor lighting with soft reflections across worn armor surfaces",
+    "medium": "digital character concept art",
+    "art_style": "AAA game character design with a strong armored silhouette, heavy plating, clean mechanical shapes, full helmet, and a visually iconic reflective visor",
+    "color_palette": ["#4B5F36", "#1F2933", "#B08D38", "#0F172A", "#9CA3AF"]
+  },
+  "compositional_deconstruction": {
+    "background": "A softly blurred outdoor landscape with distant dark forested mountains and muted natural scenery.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "A single futuristic supersoldier shown from the upper body in dark green and gunmetal powered armor, standing in a calm three-quarter pose with a strong heroic silhouette, mp_power_armor."
+      },
+      {
+        "type": "obj",
+        "desc": "The full helmet has angular military sci-fi construction, layered cheek and jaw plating, a reinforced brow, and a large reflective gold visor that remains the main visual focal point."
+      },
+      {
+        "type": "obj",
+        "desc": "The torso armor features broad chest plating, bulky shoulder armor, ribbed black undersuit sections, segmented hard-surface panels, and compact mechanical seams with clear material readability."
+      },
+      {
+        "type": "obj",
+        "desc": "Visible battle damage appears across the armor, including clusters of bullet impacts and pitted strike marks on the upper chest and shoulder plating, with chipped paint, scraped metal, and rough impact scarring."
+      },
+      {
+        "type": "obj",
+        "desc": "The visor and helmet surface show additional combat wear, including scuffs, scratches, and a small spiderweb impact mark on the gold visor that enhances the live-action battle-tested appearance."
+      },
+      {
+        "type": "obj",
+        "desc": "The armor surfaces show realistic wear with dust, abrasion, edge chipping, dark panel gaps, and weathered texture that strengthen the production-ready sci-fi military design."
+      }
+    ]
+  }
+}

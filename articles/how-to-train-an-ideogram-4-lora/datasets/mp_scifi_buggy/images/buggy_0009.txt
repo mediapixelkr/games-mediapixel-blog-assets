@@ -1,0 +1,38 @@
+{
+  "high_level_description": "A close-up cinematic reference image showing the upper body and turret area of a futuristic olive-green sci-fi military buggy in an urban street setting. The image focuses on the dark hood, white number marking, black roll-cage bars, armored roof support structures, and a rear-mounted heavy machine gun turret with a visible ammunition belt. The cropped view emphasizes the tactical hard-surface details of the vehicle, including metal rails, angular armor panels, turret mounting hardware, and the open cockpit frame, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "bright urban daylight with strong highlights and soft shadows",
+    "medium": "film still or realistic render",
+    "art_style": "realistic hard-surface sci-fi vehicle action reference"
+  },
+  "compositional_deconstruction": {
+    "background": "A bright urban street setting with city buildings and pale sky visible behind the vehicle, providing context while keeping the focus on the turret and upper frame.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown in a tight cropped view, focusing on the hood, cockpit frame, roll cage, and rear turret rather than the full vehicle silhouette."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-green armored hood fills the lower foreground, with a white number marking, panel seams, small latches, and matte military surface finish."
+      },
+      {
+        "type": "obj",
+        "desc": "The cockpit area is framed by thick black roll-cage bars and angular armored support structures, showing the open tactical cabin layout."
+      },
+      {
+        "type": "obj",
+        "desc": "A rear-mounted heavy machine gun turret rises above the vehicle, with a long barrel assembly, dark mechanical housing, and shield-like side plates."
+      },
+      {
+        "type": "obj",
+        "desc": "A visible ammunition belt hangs from the turret system, adding a functional combat detail to the mounted weapon."
+      },
+      {
+        "type": "obj",
+        "desc": "The close-up highlights hard-surface details such as dark metal rails, beveled armor edges, bolts, turret hardware, matte paint, and bright reflected highlights."
+      }
+    ]
+  }
+}

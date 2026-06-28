@@ -1,0 +1,54 @@
+{
+  "high_level_description": "A cinematic urban reference image showing a futuristic olive-green sci-fi military buggy from an aggressive low front view. The vehicle has a wide armored front body, massive off-road tires, compact multi-lens headlights, exposed winch mechanism, heavy suspension components, tubular bumper guards, dark windshield canopy, white hood number marking, and a rear-mounted machine gun turret visible above the roofline. The composition emphasizes the buggy’s powerful front stance, rugged all-terrain proportions, tactical hardware, and armored sci-fi combat design, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "bright urban daylight with strong highlights and deep vehicle shadows",
+    "medium": "film still or realistic render",
+    "art_style": "realistic hard-surface sci-fi vehicle action reference"
+  },
+  "compositional_deconstruction": {
+    "background": "A bright urban street with tall stone buildings on both sides and a pale sky above, framing the vehicle in a city patrol or convoy setting.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown from a low frontal angle, making the oversized tires, wide body, and aggressive armored silhouette dominate the composition."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-green hood is broad and angular, with a white number marking, raised central vent detail, matte military paint, and beveled hard-surface panel edges."
+      },
+      {
+        "type": "obj",
+        "desc": "The front light cluster contains multiple round lamps set into a dark rectangular housing, positioned above the exposed winch assembly."
+      },
+      {
+        "type": "obj",
+        "desc": "A heavy front winch sits beneath the lights, with visible cable, brackets, metal plates, and structural supports integrated into the bumper area."
+      },
+      {
+        "type": "obj",
+        "desc": "Large tubular bumper guards wrap around the front corners, adding protective utility hardware to the armored nose."
+      },
+      {
+        "type": "obj",
+        "desc": "Two massive front tires with deep blocky tread fill the lower sides of the frame, emphasizing the rugged off-road capability of the buggy."
+      },
+      {
+        "type": "obj",
+        "desc": "Visible suspension arms, axle components, and dark mechanical parts appear beneath the front body, adding functional realism to the all-terrain design."
+      },
+      {
+        "type": "obj",
+        "desc": "The upper vehicle structure includes a dark windshield canopy and black roll-cage bars, with the open cockpit partially visible behind the armored hood."
+      },
+      {
+        "type": "obj",
+        "desc": "A rear-mounted machine gun turret rises above the windshield line, centered in the background and reinforcing the combat buggy role."
+      },
+      {
+        "type": "obj",
+        "desc": "The image highlights hard-surface vehicle details such as panel seams, metal guard rails, dark glass reflections, rugged tire texture, exposed hardware, and matte military armor surfaces."
+      }
+    ]
+  }
+}

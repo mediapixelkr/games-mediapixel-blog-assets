@@ -1,0 +1,50 @@
+{
+  "high_level_description": "A cinematic production reference image showing a futuristic olive-green sci-fi military buggy parked in a rocky combat environment with several armed occupants around it. The vehicle has a low armored off-road body, open side cockpit, angular side panels, dark windshield canopy, oversized dusty tires, rugged wheel arches, exposed suspension, front bumper guards, compact headlight cluster, black roll-cage frame, and a rear-mounted heavy machine gun turret. The scene emphasizes a tactical combat buggy used by soldiers, with a gunner standing behind the turret and a second armed figure positioned beside the vehicle, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "natural outdoor lighting with dusty highlights and soft environmental shadows",
+    "medium": "film still or realistic production reference",
+    "art_style": "realistic hard-surface sci-fi vehicle action reference"
+  },
+  "compositional_deconstruction": {
+    "background": "A rocky canyon or military outpost environment with beige stone walls, dusty ground, industrial set structures, and muted outdoor lighting, creating a tactical sci-fi combat atmosphere.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown in a side three-quarter view, emphasizing its low armored silhouette, open cockpit, wide wheelbase, and rugged off-road proportions."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-green armored body has angular hard-surface side panels, beveled edges, open side entry, dark lower trim, white side markings, and weathered dusty surfaces."
+      },
+      {
+        "type": "obj",
+        "desc": "The front section includes compact multi-lens headlights, tubular bumper guards, dark mechanical parts, and exposed suspension details beneath the armored nose."
+      },
+      {
+        "type": "obj",
+        "desc": "Four oversized off-road tires with deep tread and dusty sidewalls give the buggy a heavy all-terrain stance."
+      },
+      {
+        "type": "obj",
+        "desc": "The cockpit contains visible seats, a dark windshield canopy, black roll-cage bars, and multiple partially visible occupants inside the vehicle."
+      },
+      {
+        "type": "obj",
+        "desc": "A rear-mounted heavy machine gun turret rises above the cargo area, with a long barrel assembly and protective shield-like plates."
+      },
+      {
+        "type": "obj",
+        "desc": "A helmeted armored gunner stands behind the rear turret, holding the mounted weapon and adding a strong combat-use reference to the vehicle."
+      },
+      {
+        "type": "obj",
+        "desc": "An armed soldier stands beside the buggy near the open cockpit area, reinforcing the scale and tactical military context of the mp_scifi_buggy."
+      },
+      {
+        "type": "obj",
+        "desc": "The image highlights realistic hard-surface details such as armor seams, dusty paint, rugged tire texture, roll-cage tubing, metal brackets, exposed suspension, and practical vehicle utility hardware."
+      }
+    ]
+  }
+}

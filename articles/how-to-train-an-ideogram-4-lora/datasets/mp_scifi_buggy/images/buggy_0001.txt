@@ -1,0 +1,42 @@
+{
+  "high_level_description": "A detailed studio render of a futuristic sci-fi military buggy. The vehicle is an olive-green armored off-road combat buggy with a low angular body, open side cockpit, heavy black roll cage, oversized rugged tires, reinforced suspension, and a rear-mounted rotating gun turret. The design features modular armor panels, black mechanical undercarriage parts, red suspension springs, front tow hooks, compact headlights, military-style decals, and a practical all-terrain silhouette, mp_scifi_buggy.",
+  "style_description": {
+    "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+    "lighting": "soft studio lighting with realistic reflections",
+    "medium": "3D render",
+    "art_style": "realistic hard-surface sci-fi vehicle render"
+  },
+  "compositional_deconstruction": {
+    "background": "A neutral gray studio backdrop with soft lighting, a color calibration chart, and small material reference spheres in the upper-left corner, keeping the focus on the sci-fi buggy model.",
+    "elements": [
+      {
+        "type": "obj",
+        "desc": "The mp_scifi_buggy is shown in a front three-quarter view, emphasizing its low angular silhouette, wide wheelbase, and armored military design."
+      },
+      {
+        "type": "obj",
+        "desc": "The olive-green armored body has sloped front panels, modular side plating, black lower trim, and subtle military-style white decals on the side panels."
+      },
+      {
+        "type": "obj",
+        "desc": "Four oversized black off-road tires with deep tread support the vehicle, giving it a rugged all-terrain stance."
+      },
+      {
+        "type": "obj",
+        "desc": "The front section includes compact rectangular headlights, black tow hooks, exposed suspension parts, and red coil springs visible beneath the armored hood."
+      },
+      {
+        "type": "obj",
+        "desc": "The cockpit is partially open, with dark frame bars, visible seats, and a protective black roll cage integrated into the vehicle body."
+      },
+      {
+        "type": "obj",
+        "desc": "A rear-mounted rotating turret sits above the cockpit area, fitted with a compact rotary machine gun and an arcing ammunition belt feed."
+      },
+      {
+        "type": "obj",
+        "desc": "The render highlights realistic hard-surface modeling with beveled armor edges, panel seams, latch details, bolts, dark glass, rubber textures, and matte metal surfaces."
+      }
+    ]
+  }
+}
