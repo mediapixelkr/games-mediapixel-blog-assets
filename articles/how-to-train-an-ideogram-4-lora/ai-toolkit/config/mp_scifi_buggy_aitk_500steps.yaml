@@ -1,0 +1,108 @@
+# AI Toolkit Ideogram 4 LoRA tutorial config.
+#
+# Before running, update these paths if your setup is different:
+# - datasets.folder_path: folder containing image + .txt caption pairs
+# - training_folder: where AI Toolkit writes LoRA outputs and checkpoints
+# - model.name_or_path: local Ideogram 4 FP8 model folder
+# - model.model_kwargs.text_encoder_path: local text_encoder folder
+#
+# Example launch from C:/ai-toolkit:
+#   .\venv\Scripts\python.exe .\run.py C:\ai-toolkit\config\mp_scifi_buggy_aitk_500steps.yaml
+
+---
+job: extension
+config:
+  name: "mp_scifi_buggy_aitk"
+  process:
+    - type: "sd_trainer"
+      training_folder: "C:/ideogram4_lora_training/mp_scifi_buggy/output_aitk"
+      device: cuda:0
+      trigger_word: "mp_scifi_buggy"
+
+      network:
+        type: "lora"
+        linear: 16
+        linear_alpha: 16
+
+      save:
+        dtype: float16
+        save_every: 250
+        max_step_saves_to_keep: 10
+        save_format: "safetensors"
+        push_to_hub: false
+
+      datasets:
+        - folder_path: "C:/ideogram4_lora_training/mp_scifi_buggy/images"
+          caption_ext: "txt"
+          caption_dropout_rate: 0.05
+          shuffle_tokens: false
+          cache_latents_to_disk: true
+          cache_text_embeddings: true
+          resolution: [768]
+
+      train:
+        batch_size: 1
+        gradient_accumulation_steps: 1
+        steps: 500
+        train_unet: true
+        train_text_encoder: false
+        gradient_checkpointing: true
+        cache_text_embeddings: true
+        disable_sampling: true
+        noise_scheduler: "flowmatch"
+        optimizer: "adamw8bit"
+        lr: 0.0001
+        dtype: bf16
+
+      model:
+        name_or_path: "C:/ai-toolkit/models/ideogram-4-fp8"
+        arch: "ideogram4"
+        quantize: true
+        quantize_te: true
+        low_vram: true
+        layer_offloading: true
+        layer_offloading_text_encoder_percent: 95
+        layer_offloading_transformer_percent: 95
+        model_kwargs:
+          text_encoder_path: "C:/ai-toolkit/models/ideogram-4-fp8/text_encoder"
+          max_text_length: 2048
+
+      sample:
+        disable_sampling: true
+        sampler: "flowmatch"
+        sample_every: 250
+        width: 768
+        height: 768
+        prompts:
+          - |
+            {
+              "high_level_description": "A detailed hard-surface reference render of a futuristic olive-green armored off-road combat buggy, mp_scifi_buggy.",
+              "style_description": {
+                "aesthetics": "sci-fi military vehicle reference, mp_scifi_buggy",
+                "lighting": "soft studio lighting",
+                "medium": "3D render",
+                "art_style": "realistic hard-surface sci-fi vehicle render with rugged mechanical details"
+              },
+              "compositional_deconstruction": {
+                "background": "A clean neutral studio background.",
+                "elements": [
+                  {
+                    "type": "obj",
+                    "desc": "A futuristic mp_scifi_buggy with olive-green angular armor panels, oversized off-road tires, black roll cage, open side cockpit, exposed suspension, and a rear-mounted turret."
+                  }
+                ]
+              }
+            }
+        neg: "text, letters, words, labels, annotation, callout, arrows, caption, watermark, signature, logo"
+        seed: 12345
+        walk_seed: false
+        guidance_scale: 5
+        sample_steps: 48
+
+meta:
+  name: "mp_scifi_buggy_aitk"
+  version: "1.0"
+  dataset: "mp_scifi_buggy"
+  base_model: "ideogram-4-fp8"
+  trigger_token: "mp_scifi_buggy"
+  notes: "Tutorial LoRA config: 500 steps, 768 px, batch 1, rank 16 alpha 16, AI Toolkit Ideogram 4 FP8."
