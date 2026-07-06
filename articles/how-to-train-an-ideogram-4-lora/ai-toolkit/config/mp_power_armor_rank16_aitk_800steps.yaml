@@ -47,7 +47,7 @@ config:
         name_or_path: "C:/ai-toolkit/models/ideogram-4-fp8"
         arch: "ideogram4"
         quantize: true
-        quantize_te: true
+        quantize_te: false
         low_vram: true
         layer_offloading: true
         layer_offloading_text_encoder_percent: 95
