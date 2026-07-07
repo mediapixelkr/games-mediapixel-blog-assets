@@ -13,6 +13,9 @@ Companion files for the Media-Pixel article about training a Krea 2 LoRA on a 12
 - `scripts/prepare_krea2_dataset.py`  
   Optional Python script to clean automatic metadata tags and prepare clean JSON captions for Krea 2 training.
 
+- `workflows/Krea2_turbo_00001_.png`  
+  ComfyUI inference workflow for testing the trained Krea 2 LoRA on Krea 2 Turbo (drag and drop the PNG into ComfyUI to load the workflow).
+
 ## Expected Local Paths
 
 The sample config assumes this Windows layout:
