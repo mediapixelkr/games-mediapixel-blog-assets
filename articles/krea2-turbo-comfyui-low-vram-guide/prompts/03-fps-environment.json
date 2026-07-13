@@ -1,0 +1,5 @@
+{
+  "name": "Cinematic Shooter Environment",
+  "prompt": "A cinematic AAA first-person shooter environment render with high-end real-time game engine lighting, overgrown concrete military ruins, deep dense canyon valley, dramatic vertical framing, volumetric sunlight, atmospheric fog",
+  "negative_prompt": "no text, no logo, no UI, bad proportions, blurry, low resolution"
+}
