@@ -18,7 +18,7 @@
       "mode": 0,
       "properties": {},
       "widgets_values": [
-        "krea2_turbo_fp8_scaled.safetensors",
+        "krea2_raw_fp8_scaled.safetensors",
         "default"
       ],
       "inputs": [],
@@ -217,8 +217,8 @@
       "widgets_values": [
         "enable",
         42,
-        8,
-        1.0,
+        52,
+        3.5,
         "euler",
         "beta57",
         0,
@@ -325,7 +325,7 @@
       "mode": 0,
       "properties": {},
       "widgets_values": [
-        "krea2_turbo_std"
+        "krea2_raw_std"
       ],
       "inputs": [
         {
