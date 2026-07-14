@@ -98,5 +98,11 @@
       ]
     },
     "class_type": "SaveImage"
+  },
+  "999": {
+    "inputs": {
+      "text": "Workflow shared by games.mediapixel.kr"
+    },
+    "class_type": "Note"
   }
 }
