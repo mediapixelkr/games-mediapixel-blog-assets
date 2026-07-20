@@ -38,9 +38,8 @@ try {
         --dataset_config $DatasetConfig `
         --sdpa `
         --mixed_precision bf16 `
-        --timestep_sampling shift `
+        --timestep_sampling krea2_shift `
         --weighting_scheme none `
-        --discrete_flow_shift 2.5 `
         --optimizer_type adamw8bit `
         --learning_rate 1e-4 `
         --gradient_checkpointing `
