@@ -1,0 +1,505 @@
+{
+  "last_node_id": 10,
+  "last_link_id": 9,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "UNETLoader",
+      "pos": [
+        40,
+        40
+      ],
+      "size": [
+        330,
+        90
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            3
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader",
+        "benchmark": "Mage-Flow Turbo provisional native workflow"
+      },
+      "widgets_values": [
+        "mage_flow_turbo_int8_convrot.safetensors",
+        "default"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CLIPLoader",
+      "pos": [
+        40,
+        190
+      ],
+      "size": [
+        330,
+        90
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            1
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader",
+        "benchmark": "Mage-Flow Turbo provisional native workflow"
+      },
+      "widgets_values": [
+        "qwen3vl_4b_bf16.safetensors",
+        "mage"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "VAELoader",
+      "pos": [
+        40,
+        340
+      ],
+      "size": [
+        330,
+        70
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            8
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader",
+        "benchmark": "Mage-Flow Turbo provisional native workflow"
+      },
+      "widgets_values": [
+        "mage_flow_vae_bf16.safetensors"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "EmptyFlux2LatentImage",
+      "pos": [
+        40,
+        470
+      ],
+      "size": [
+        315,
+        110
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            6
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyFlux2LatentImage",
+        "benchmark": "Mage-Flow Turbo provisional native workflow"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "type": "CLIPTextEncode",
+      "pos": [
+        400,
+        190
+      ],
+      "size": [
+        390,
+        190
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            2,
+            4
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode",
+        "benchmark": "Mage-Flow Turbo provisional native workflow"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 6,
+      "type": "ConditioningZeroOut",
+      "pos": [
+        430,
+        430
+      ],
+      "size": [
+        280,
+        55
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            5
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ConditioningZeroOut",
+        "benchmark": "Mage-Flow Turbo provisional native workflow"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 7,
+      "type": "KSamplerAdvanced",
+      "pos": [
+        820,
+        100
+      ],
+      "size": [
+        330,
+        360
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 3
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 4
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 5
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 6
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            7
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerAdvanced",
+        "benchmark": "Mage-Flow Turbo provisional native workflow"
+      },
+      "widgets_values": [
+        "enable",
+        42,
+        "fixed",
+        4,
+        1.0,
+        "euler",
+        "simple",
+        0,
+        10000,
+        "disable"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "VAEDecode",
+      "pos": [
+        1200,
+        180
+      ],
+      "size": [
+        220,
+        55
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            9
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode",
+        "benchmark": "Mage-Flow Turbo provisional native workflow"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 9,
+      "type": "SaveImage",
+      "pos": [
+        1460,
+        180
+      ],
+      "size": [
+        300,
+        260
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 9
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage",
+        "benchmark": "Mage-Flow Turbo provisional native workflow"
+      },
+      "widgets_values": [
+        "benchmark_pending"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Note",
+      "pos": [
+        40,
+        -220
+      ],
+      "size": [
+        750,
+        120
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Workflow provenance: games.mediapixel.kr\nMage-Flow Turbo INT8 ConvRot — public companion workflow."
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      2,
+      0,
+      5,
+      "clip",
+      "CLIP"
+    ],
+    [
+      2,
+      5,
+      0,
+      6,
+      "conditioning",
+      "CONDITIONING"
+    ],
+    [
+      3,
+      1,
+      0,
+      7,
+      "model",
+      "MODEL"
+    ],
+    [
+      4,
+      5,
+      0,
+      7,
+      "positive",
+      "CONDITIONING"
+    ],
+    [
+      5,
+      6,
+      0,
+      7,
+      "negative",
+      "CONDITIONING"
+    ],
+    [
+      6,
+      4,
+      0,
+      7,
+      "latent_image",
+      "LATENT"
+    ],
+    [
+      7,
+      7,
+      0,
+      8,
+      "samples",
+      "LATENT"
+    ],
+    [
+      8,
+      3,
+      0,
+      8,
+      "vae",
+      "VAE"
+    ],
+    [
+      9,
+      8,
+      0,
+      9,
+      "images",
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "1 — Model Components and Latent",
+      "bounding": [
+        10,
+        0,
+        380,
+        620
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "2 — Prompt Conditioning",
+      "bounding": [
+        390,
+        140,
+        430,
+        390
+      ],
+      "color": "#8f6c3a",
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "3 — Native Turbo Sampling",
+      "bounding": [
+        800,
+        50,
+        380,
+        450
+      ],
+      "color": "#6a5acd",
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "4 — Full VAE Decode and Save",
+      "bounding": [
+        1180,
+        120,
+        610,
+        400
+      ],
+      "color": "#2e8b57",
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "benchmark": "Mage-Flow Turbo provisional native workflow",
+    "provenance": "games.mediapixel.kr"
+  },
+  "version": 0.4
+}

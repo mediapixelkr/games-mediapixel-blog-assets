@@ -1,0 +1,641 @@
+{
+  "last_node_id": 16,
+  "last_link_id": 12,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "UNETLoader",
+      "pos": [
+        40,
+        40
+      ],
+      "size": [
+        330,
+        90
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            5,
+            7
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": [
+        "krea2_turbo_fp8_scaled.safetensors",
+        "default"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CLIPLoader",
+      "pos": [
+        40,
+        190
+      ],
+      "size": [
+        330,
+        90
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            1
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": [
+        "qwen3vl_4b_fp8_scaled.safetensors",
+        "krea2"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "VAELoader",
+      "pos": [
+        40,
+        340
+      ],
+      "size": [
+        330,
+        70
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            3
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": [
+        "qwen_image_vae.safetensors"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "EmptyLatentImage",
+      "pos": [
+        40,
+        470
+      ],
+      "size": [
+        315,
+        110
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            12
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "type": "CLIPTextEncode",
+      "pos": [
+        400,
+        190
+      ],
+      "size": [
+        390,
+        190
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            6
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 8,
+      "type": "VAEDecode",
+      "pos": [
+        1480,
+        180
+      ],
+      "size": [
+        220,
+        55
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 2
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            4
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 9,
+      "type": "SaveImage",
+      "pos": [
+        1740,
+        180
+      ],
+      "size": [
+        300,
+        260
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 4
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": [
+        "benchmark_pending"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "RandomNoise",
+      "pos": [
+        760,
+        40
+      ],
+      "size": [
+        260,
+        80
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            8
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": [
+        42
+      ]
+    },
+    {
+      "id": 12,
+      "type": "BasicGuider",
+      "pos": [
+        760,
+        150
+      ],
+      "size": [
+        280,
+        90
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 5
+        },
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 6
+        }
+      ],
+      "outputs": [
+        {
+          "name": "GUIDER",
+          "type": "GUIDER",
+          "links": [
+            9
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicGuider",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 13,
+      "type": "KSamplerSelect",
+      "pos": [
+        760,
+        270
+      ],
+      "size": [
+        280,
+        70
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            10
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": [
+        "euler"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "BetaSamplingScheduler",
+      "pos": [
+        760,
+        380
+      ],
+      "size": [
+        300,
+        150
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            11
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BetaSamplingScheduler",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": [
+        8,
+        0.5,
+        0.7
+      ]
+    },
+    {
+      "id": 15,
+      "type": "SamplerCustomAdvanced",
+      "pos": [
+        1100,
+        150
+      ],
+      "size": [
+        300,
+        220
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 8
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 9
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 10
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 11
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 12
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            2
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": null,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced",
+        "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 16,
+      "type": "Note",
+      "pos": [
+        40,
+        -220
+      ],
+      "size": [
+        750,
+        120
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Workflow provenance: games.mediapixel.kr\nKrea 2 Turbo FP8 scaled — public companion workflow."
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      2,
+      0,
+      5,
+      "clip",
+      "CLIP"
+    ],
+    [
+      2,
+      15,
+      0,
+      8,
+      "samples",
+      "LATENT"
+    ],
+    [
+      3,
+      3,
+      0,
+      8,
+      "vae",
+      "VAE"
+    ],
+    [
+      4,
+      8,
+      0,
+      9,
+      "images",
+      "IMAGE"
+    ],
+    [
+      5,
+      1,
+      0,
+      12,
+      "model",
+      "MODEL"
+    ],
+    [
+      6,
+      5,
+      0,
+      12,
+      "conditioning",
+      "CONDITIONING"
+    ],
+    [
+      7,
+      1,
+      0,
+      14,
+      "model",
+      "MODEL"
+    ],
+    [
+      8,
+      11,
+      0,
+      15,
+      "noise",
+      "NOISE"
+    ],
+    [
+      9,
+      12,
+      0,
+      15,
+      "guider",
+      "GUIDER"
+    ],
+    [
+      10,
+      13,
+      0,
+      15,
+      "sampler",
+      "SAMPLER"
+    ],
+    [
+      11,
+      14,
+      0,
+      15,
+      "sigmas",
+      "SIGMAS"
+    ],
+    [
+      12,
+      4,
+      0,
+      15,
+      "latent_image",
+      "LATENT"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "1 — Model Components and Latent",
+      "bounding": [
+        10,
+        0,
+        380,
+        620
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "2 — Prompt Conditioning",
+      "bounding": [
+        390,
+        140,
+        430,
+        290
+      ],
+      "color": "#8f6c3a",
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "3 — Turbo Sampling",
+      "bounding": [
+        730,
+        0,
+        720,
+        570
+      ],
+      "color": "#6a5acd",
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "4 — Full VAE Decode and Save",
+      "bounding": [
+        1460,
+        120,
+        610,
+        400
+      ],
+      "color": "#2e8b57",
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "benchmark": "Krea 2 Turbo FP8 scaled — no LoRA",
+    "provenance": "games.mediapixel.kr"
+  },
+  "version": 0.4
+}

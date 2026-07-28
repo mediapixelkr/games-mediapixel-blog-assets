@@ -1,0 +1,39 @@
+{
+  "set_name": "Photography scenes",
+  "category": "photography",
+  "source": "user-supplied supplemental protocol dated 2026-07-28",
+  "automatic_expansion": false,
+  "negative_prompt": "",
+  "prompts": {
+    "p07": {
+      "label": "Woman in a Café with Barista in the Background",
+      "text": "A stylish young woman seated alone in a cozy neighborhood café near a large\nwindow on a rainy afternoon. She is the clearly defined main subject, framed\nfrom the waist up while holding a ceramic coffee cup with both hands and\nlooking thoughtfully toward the street. She wears a soft beige coat over a\ndark top, with natural makeup and loose shoulder-length hair. In the\nbackground, a barista works behind the counter preparing drinks beside an\nespresso machine. Wooden tables, hanging lamps, pastries in a glass display,\nsubtle steam, reflections on the window and blurred city traffic outside\ncreate a rich everyday setting. Grounded live-action lifestyle photography,\nrealistic anatomy, natural skin texture, believable indoor lighting, subtle\ndepth of field, warm and inviting atmosphere.",
+      "high_resolution": [1632, 2048]
+    },
+    "p08": {
+      "label": "Man Choosing Between Two Vegetables in a Supermarket",
+      "text": "An ordinary man standing in the produce aisle of a modern supermarket,\nhesitating between two vegetables while shopping for dinner. He is the main\nsubject, shown from the knees upward, holding a red bell pepper in his left\nhand and a green zucchini in his right hand while comparing them carefully.\nHe wears a dark casual jacket, jeans and practical sneakers, with a handheld\nshopping basket resting beside him. Fresh produce shelves, price labels,\nstacked vegetables, soft overhead supermarket lights and a few distant\nshoppers create a believable grocery-store scene. Grounded live-action\nphotography, realistic proportions, natural skin and fabric texture, clear\nobject readability, balanced composition and an authentic everyday atmosphere.",
+      "high_resolution": [2016, 1344]
+    },
+    "p09": {
+      "label": "Young Woman on a Commuter Train",
+      "text": "A young professional woman riding alone on a modern commuter train in the\nlate afternoon. She is the clear main subject, seated beside the window and\nframed from the thighs upward, holding a smartphone in one hand while the\nother rests naturally on a canvas tote bag on her lap. She wears a navy coat,\na light blouse and simple workwear trousers. Outside the window, a soft blur\nof city buildings and tracks suggests motion. In the background, a few other\npassengers sit farther down the carriage, and metal poles, overhead handles,\nseat textures and cool daylight reflections define the interior. Grounded\nlive-action urban realism, natural posture, believable facial features,\nclean modern design, subtle reflections, soft ambient light and a calm daily\ncommute mood.",
+      "high_resolution": [1632, 2048]
+    },
+    "p10": {
+      "label": "Man Folding Clothes in a Laundromat",
+      "text": "A middle-aged man standing inside a clean neighborhood laundromat while\nfolding fresh laundry on a waist-high counter. He is the clearly dominant main\nsubject, shown from the knees upward, with both hands arranging a neatly\nfolded blue shirt. He wears a plain gray hoodie, dark trousers and casual\nshoes. Rows of stainless-steel washing machines and dryers line the walls,\nwith round doors, detergent bottles, fluorescent ceiling lights and a few\nlaundry baskets visible around the room. The background remains readable and\norganized, creating a familiar everyday environment. Grounded live-action\nphotography, realistic anatomy, natural hand placement, believable fabric\ntexture, subtle metallic reflections and a calm slice-of-life atmosphere.",
+      "high_resolution": [2016, 1344]
+    },
+    "p11": {
+      "label": "Florist Arranging a Bouquet",
+      "text": "A young florist standing inside a small flower shop while arranging a fresh\nbouquet on a wooden worktable. She is the clear main subject, framed from the\nwaist upward, holding the bouquet with both hands while adjusting the stems\ncarefully. She wears a green apron over a cream blouse, with tied-back hair\nand a focused expression. Buckets of flowers, wrapping paper, scissors,\nribbons, potted plants and a softly lit shop interior fill the scene. In the\nfar background, a customer stands near the entrance, adding depth without\ncompeting with the florist. Grounded live-action lifestyle photography,\nnatural skin and hand detail, believable plant textures, gentle daylight and\na refined contemporary atmosphere.",
+      "high_resolution": [1632, 2048]
+    },
+    "p12": {
+      "label": "Architect in a Design Studio",
+      "text": "A young architect working in a bright contemporary design studio during the\nmorning. He is the clearly defined main subject, shown from the waist upward\nwhile standing at a large desk and reviewing an architectural model with one\nhand, with the other hand resting beside a rolled blueprint. He wears a dark\novershirt over a white T-shirt, with neat short hair and a focused\nexpression. In the background, a colleague pins drawings to a presentation\nboard, while shelves, sample materials, sketchbooks, cutting tools, a desk\nlamp and large windows complete the workspace. Grounded live-action editorial\nphotography, realistic anatomy, detailed hands, believable paper and model\ntextures, balanced modern composition and clean natural daylight.",
+      "high_resolution": [2016, 1344]
+    }
+  }
+}
