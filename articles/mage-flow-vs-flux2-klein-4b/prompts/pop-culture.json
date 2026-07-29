@@ -1,0 +1,37 @@
+{
+  "set_name": "MediaPixel pop-culture set",
+  "source": "user-supplied benchmark protocol dated 2026-07-28",
+  "automatic_expansion": false,
+  "prompts": {
+    "p01": {
+      "label": "Samus Aran / Iconic Metroid Environment",
+      "text": "Samus Aran standing alone inside a vast biomechanical alien chamber inspired\nby the iconic environments of the Metroid series. She is the single clearly\ndefined main character, fully visible in her detailed orange and red Power\nSuit, aiming a charged arm cannon toward an unseen threat. Her green visor\nreflects the luminous machinery around her. Ribbed metallic walls, organic\ncables, suspended mechanical structures, alien symbols, mist, sparks and\npools of reflective liquid surround her without obscuring her silhouette.\nGrounded live-action science-fiction realism, realistic armor proportions,\nintricate hard-surface materials, detailed panel seams, believable reflections,\ndramatic atmospheric lighting, strong environmental depth, highly detailed\niconic sci-fi game mood.",
+      "high_resolution": [1632, 2048]
+    },
+    "p02": {
+      "label": "Lara Croft / Tomb Raider Temple Scene",
+      "text": "Lara Croft exploring a forgotten jungle temple chamber inspired by the iconic\nadventure environments of Tomb Raider. She is the single main character,\nshown in a full-body three-quarter view, carefully lifting a small glowing\nancient artifact from a stone pedestal with both hands. She wears a practical\nweathered expedition outfit with a dark tank top, cargo trousers, climbing\nboots, leather holsters and a small backpack. Her hair and skin are damp from\nthe humid jungle, with subtle dirt and scratches from the expedition. Carved\nstone reliefs, hanging vines, roots, moss, shallow water, drifting dust, bats\nand shafts of sunlight entering through a collapsed ceiling create a rich\ncinematic scene. Grounded live-action adventure photography, realistic anatomy,\ndetailed face and hands, natural fabric and skin texture, cinematic lighting.",
+      "high_resolution": [1632, 2048]
+    },
+    "p03": {
+      "label": "Master Chief / Halo Ring Battlefield",
+      "text": "Master Chief standing alone on a windswept Halo ring battlefield overlooking\na dramatic Forerunner landscape. He is the single dominant main character,\nshown full-body in detailed green Mjolnir armor, holding an assault rifle in\na ready but controlled stance. His gold visor catches the cold light of the\nsky. In the background, towering metallic Forerunner structures, broken rock\nformations, sparse pines, distant UNSC wreckage and a curved segment of the\nringworld establish an unmistakable iconic Halo environment. Dust, smoke and\nsubtle atmospheric haze add scale without obscuring the scene. Grounded\nlive-action military science-fiction realism, strong armor detail, realistic\nbattle wear, believable lighting, sharp silhouette and epic environmental\nscale.",
+      "high_resolution": [2048, 1152]
+    },
+    "p04": {
+      "label": "Kratos / God of War Norse Scene",
+      "text": "Kratos standing alone in a rugged Norse wilderness inspired by the iconic\nworld of God of War. He is the single main subject, shown in a dramatic\nthree-quarter full-body pose with the Leviathan Axe in one hand. His pale\nscarred skin, red tattoo, thick beard and muscular physique are clearly\nvisible. He wears layered leather and fur armor, bracers, belts and weathered\nboots. Behind him, a frozen lake, broken carved stone ruins, snow-covered\npine trees and distant mountains create a harsh mythic environment. Cold wind\nmoves the fur and loose cloth elements. Grounded live-action mythic realism,\nstrong anatomy, skin detail, beard texture, weathered materials, cinematic\ncold lighting and a powerful godlike presence.",
+      "high_resolution": [1344, 2016]
+    },
+    "p05": {
+      "label": "The Terminator / Motorcycle vs Truck Chase",
+      "text": "The Terminator in an intense motorcycle chase scene inspired by the iconic\ntruck pursuit from Terminator 2. He rides a black motorcycle at high speed in\nthe foreground while a massive silver tanker truck pursues him directly behind\nthrough a concrete flood-control canal at night. The Terminator is the clearly\ndominant subject, wearing a black leather jacket, dark pants and boots, with a\ncold determined expression. Headlights, sparks, smoke, reflections on wet\nconcrete and streaks of motion create a powerful cinematic sense of speed.\nThe truck remains large and threatening but secondary to the rider. Grounded\nlive-action action-thriller realism, dramatic perspective, believable vehicle\nscale, crisp subject separation, intense lighting and strong iconic movie\nenergy.",
+      "high_resolution": [2048, 1152]
+    },
+    "p06": {
+      "label": "Solid Snake / Shadow Moses Infiltration",
+      "text": "Solid Snake infiltrating an industrial military facility inspired by the\niconic Shadow Moses atmosphere of Metal Gear Solid. He is the single main\ncharacter, shown in a stealthy three-quarter full-body pose, partially lit by\ncold industrial lighting while holding a suppressed pistol close to his body.\nHis tactical sneaking suit, gloves, harness straps, boots and headband are\nclearly visible. Behind him, catwalks, pipes, warning lights, steel doors,\nlight fog and distant snow beyond an open structure create a tense espionage\nenvironment. Grounded live-action stealth-thriller realism, realistic anatomy,\ndetailed tactical gear, clear facial features, strong material definition,\ncontrolled shadows and a moody covert-operations atmosphere.",
+      "high_resolution": [2016, 1344]
+    }
+  }
+}
