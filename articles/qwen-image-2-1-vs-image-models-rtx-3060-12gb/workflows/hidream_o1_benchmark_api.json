@@ -1,0 +1,78 @@
+{
+  "13": {
+    "inputs": {
+      "ckpt_name": "hidream_o1_image_fp8_scaled.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple"
+  },
+  "3": {
+    "inputs": {
+      "width": 2048,
+      "height": 2048,
+      "batch_size": 1
+    },
+    "class_type": "EmptyHiDreamO1LatentImage"
+  },
+  "4": {
+    "inputs": {
+      "clip": ["13", 1],
+      "text": ""
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "6": {
+    "inputs": {
+      "clip": ["13", 1],
+      "text": ""
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "14": {
+    "inputs": {
+      "model": ["13", 0],
+      "noise_scale": 8
+    },
+    "class_type": "ModelNoiseScale"
+  },
+  "15": {
+    "inputs": {
+      "model": ["14", 0],
+      "start_percent": 0.8,
+      "end_percent": 1,
+      "pattern": "single_shift",
+      "passes": "ramp_2_4",
+      "blend": "median",
+      "strength": 1
+    },
+    "class_type": "HiDreamO1PatchSeamSmoothing"
+  },
+  "5": {
+    "inputs": {
+      "seed": 460728685534879,
+      "steps": 40,
+      "cfg": 5,
+      "sampler_name": "dpmpp_2m_sde_gpu",
+      "scheduler": "normal",
+      "denoise": 1,
+      "model": ["15", 0],
+      "positive": ["4", 0],
+      "negative": ["6", 0],
+      "latent_image": ["3", 0]
+    },
+    "class_type": "KSampler"
+  },
+  "16": {
+    "inputs": {
+      "samples": ["5", 0],
+      "vae": ["13", 2]
+    },
+    "class_type": "VAEDecode"
+  },
+  "8": {
+    "inputs": {
+      "filename_prefix": "hidream_validated",
+      "images": ["16", 0]
+    },
+    "class_type": "SaveImage"
+  }
+}
