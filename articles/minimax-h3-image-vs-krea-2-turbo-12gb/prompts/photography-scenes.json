@@ -1,0 +1,30 @@
+{
+  "set_name": "Photography and everyday-scene prompts used in the MiniMax H3-Image vs Krea 2 Turbo article",
+  "source_note": "Exact H3 prompts were extracted from the embedded ComfyUI metadata of the corresponding generated images. The caf? and product prompts match the benchmark prompt catalog. The flattened comparison images do not retain separate Krea prompt metadata.",
+  "prompts": [
+    {
+      "id": "02-fisherman-portrait",
+      "label": "Fisherman portrait",
+      "seed_h3": 42,
+      "text": "Cinematic close-up portrait of an elderly weathered sailor with deep wrinkles, silver beard, wearing a worn yellow raincoat, dramatic ocean spray in the background, golden hour rim lighting, highly detailed skin texture, 85mm lens, photorealistic."
+    },
+    {
+      "id": "03-supermarket",
+      "label": "Supermarket produce aisle",
+      "seed_h3": 1107,
+      "text": "An ordinary man standing in the produce aisle of a modern supermarket, hesitating between two vegetables while shopping for dinner. He is the main subject, shown from the knees upward, holding a red bell pepper in his left hand and a green zucchini in his right hand while comparing them carefully. He wears a dark casual jacket, jeans and practical sneakers, with a handheld shopping basket resting beside him. Fresh produce shelves, price labels, stacked vegetables, soft overhead supermarket lights and a few distant shoppers create a believable grocery-store scene. Grounded live-action photography, realistic proportions, natural skin and fabric texture, clear object readability, balanced composition and an authentic everyday atmosphere."
+    },
+    {
+      "id": "07-tokyo-cafe",
+      "label": "Tokyo caf?",
+      "seed_h3": 42,
+      "text": "A modern minimalist coffee shop in Tokyo on a rainy afternoon, wooden counter, barista pouring latte art with intricate foam patterns, large glass window with raindrops reflecting neon streetlights, soft ambient lighting, ultra-realistic."
+    },
+    {
+      "id": "05-product-shot",
+      "label": "Mechanical chronograph product shot",
+      "seed_h3": 42,
+      "text": "Studio commercial photograph of a luxury matte black mechanical chronograph watch with rose gold dials, resting on a wet dark slate stone, sharp macro focus, dramatic side lighting, crisp reflections, magazine advertisement quality."
+    }
+  ]
+}

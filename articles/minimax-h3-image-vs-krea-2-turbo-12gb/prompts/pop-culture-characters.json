@@ -1,0 +1,34 @@
+{
+  "set_name": "Character prompts used in the MiniMax H3-Image vs Krea 2 Turbo article",
+  "source_note": "Prompt text is taken from the embedded ComfyUI metadata of the H3 comparison images. The aspect ratio is recorded separately because the H3 workflow included it in the prompt input as an \"Aspect ratio\" prefix. Krea prompt metadata is not preserved in the flattened published comparison images.",
+  "prompts": [
+    {
+      "id": "15-samus-aran",
+      "label": "Samus Aran",
+      "aspect_ratio": "3:4",
+      "seed_h3": 1107,
+      "text": "Samus Aran standing alone inside a vast biomechanical alien chamber inspired by the iconic environments of the Metroid series. She is the single clearly defined main character, fully visible in her detailed orange and red Power Suit, aiming a charged arm cannon toward an unseen threat. Her green visor reflects the luminous machinery around her. Ribbed metallic walls, organic cables, suspended mechanical structures, alien symbols, mist, sparks and pools of reflective liquid surround her without obscuring her silhouette. Grounded live-action science-fiction realism, realistic armor proportions, intricate hard-surface materials, detailed panel seams, believable reflections, dramatic atmospheric lighting, strong environmental depth, highly detailed iconic sci-fi game mood."
+    },
+    {
+      "id": "16-lara-croft",
+      "label": "Lara Croft",
+      "aspect_ratio": "3:4",
+      "seed_h3": 1107,
+      "text": "Lara Croft exploring a forgotten jungle temple chamber inspired by the iconic adventure environments of Tomb Raider. She is the single main character, shown in a full-body three-quarter view, carefully lifting a small glowing ancient artifact from a stone pedestal with both hands. She wears a practical weathered expedition outfit with a dark tank top, cargo trousers, climbing boots, leather holsters and a small backpack. Her hair and skin are damp from the humid jungle, with subtle dirt and scratches from the expedition. Carved stone reliefs, hanging vines, roots, moss, shallow water, drifting dust, bats and shafts of sunlight entering through a collapsed ceiling create a rich cinematic scene. Grounded live-action adventure photography, realistic anatomy, detailed face and hands, natural fabric and skin texture, cinematic lighting."
+    },
+    {
+      "id": "18-kratos",
+      "label": "Kratos",
+      "aspect_ratio": "1:1",
+      "seed_h3": 1107,
+      "text": "Kratos standing alone in a rugged Norse wilderness inspired by the iconic world of God of War. He is the single main subject, shown in a dramatic three-quarter full-body pose with the Leviathan Axe in one hand. His pale scarred skin, red tattoo, thick beard and muscular physique are clearly visible. He wears layered leather and fur armor, bracers, belts and weathered boots. Behind him, a frozen lake, broken carved stone ruins, snow-covered pine trees and distant mountains create a harsh mythic environment. Cold wind moves the fur and loose cloth elements. Grounded live-action mythic realism, strong anatomy, skin detail, beard texture, weathered materials, cinematic cold lighting and a powerful godlike presence."
+    },
+    {
+      "id": "19-terminator",
+      "label": "The Terminator motorcycle chase",
+      "aspect_ratio": "16:9",
+      "seed_h3": 1107,
+      "text": "The Terminator in an intense motorcycle chase scene inspired by the iconic truck pursuit from Terminator 2. He rides a black motorcycle at high speed in the foreground while a massive silver tanker truck pursues him directly behind through a concrete flood-control canal at night. The Terminator is the clearly dominant subject, wearing a black leather jacket, dark pants and boots, with a cold determined expression. Headlights, sparks, smoke, reflections on wet concrete and streaks of motion create a powerful cinematic sense of speed. The truck remains large and threatening but secondary to the rider. Grounded live-action action-thriller realism, dramatic perspective, believable vehicle scale, crisp subject separation, intense lighting and strong iconic movie energy."
+    }
+  ]
+}
